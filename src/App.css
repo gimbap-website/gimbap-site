@@ -1,3 +1,11 @@
 h1{
   color: teal
 }
+
+.dark {
+  background-color: #D4D0C3;
+}
+
+.light {
+  background-color:#F2EEE8;
+}
