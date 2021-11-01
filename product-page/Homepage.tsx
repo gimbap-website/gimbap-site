@@ -1,5 +1,4 @@
 import React from 'react';
-import Stack from '@mui/material/Stack';
 import Credits from './Credits';
 
 export default function Homepage() {
@@ -8,5 +7,5 @@ export default function Homepage() {
         <p>hiparker</p>
         <Credits />
         </div>
-    )
+    );
 }
