@@ -2,7 +2,7 @@
   "name": "gimbap-site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "serve": "webpack serve --mode development",
     "build": "webpack --mode production"
@@ -20,7 +20,8 @@
   "homepage": "https://github.com/Parker9706/gimbap-site#readme",
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.4"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
