@@ -3,10 +3,12 @@ import Typography from '@mui/material/Typography';
 import GroupWorkRoundedIcon from '@mui/icons-material/GroupWorkRounded';
 import DesignServicesRoundedIcon from '@mui/icons-material/DesignServicesRounded';
 import AssessmentRoundedIcon from '@mui/icons-material/AssessmentRounded';
+// import ClusterGraph from './../../assets/sample-graph.png';
 
 export default function Features() {
   return (
   <div className="light">
+    {/* <ClusterGraph /> */}
     <Typography variant="h2" id="features-header">Measure Your Application’s Routing Efficiency</Typography>
     <GroupWorkRoundedIcon/>
       <Typography variant="h5" className="feature-header" id="feature-header-1">Cluster Reccomendations</Typography>

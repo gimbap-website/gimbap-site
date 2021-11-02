@@ -31,8 +31,9 @@ div {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  padding: 30px 30px 30px 60px;
-  width: 70%;
+  padding: 30px 30px;
+  width: 90%;
+  top: 0;
 }
 
 .logo {
@@ -40,4 +41,6 @@ div {
   color: #38a88e;
   font-size: 24px;
 }
+
+/* TO DO: WHEN HOVER OVER GIMBAP LOGO,TRANSPARENT */
 
