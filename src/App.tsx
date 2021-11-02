@@ -8,7 +8,7 @@ import Downloads from "./product-page/Downloads"
 
 function App() {
     return (
-        <div>
+        <div id="test">
         <NavBar />
         <Splash />
         <Features />

@@ -2,10 +2,30 @@ h1{
   color: teal
 }
 
+#root body #test {
+  background-color: red;
+  padding: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
 .dark {
   background-color: #D4D0C3;
 }
 
 .light {
   background-color:#F2EEE8;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links a:link {
+  color: #655D5D;
+}
+
+.logo {
+
 }
