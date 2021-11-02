@@ -6,7 +6,7 @@ export default function Navbar() {
   window.onscroll = function() {myFunction()};
 
   var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
+  var sticky = 84;
 
   function myFunction() {
     if (window.pageYOffset >= sticky) {
