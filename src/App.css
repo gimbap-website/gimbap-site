@@ -2,30 +2,42 @@ h1{
   color: teal
 }
 
-#root body #test {
-  background-color: red;
-  padding: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
+html {
+  background-color: #E1DBD2;
+  margin: -7px -7px -7px -7px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#main-logo {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 .dark {
-  background-color: #D4D0C3;
+  background-color: #E1DBD2;
 }
 
 .light {
   background-color:#F2EEE8;
 }
 
-.nav-bar{
+#navbar {
   display: flex;
-  justify-content: flex-end;
-}
-
-.nav-links a:link {
-  color: #655D5D;
+  justify-content: space-between;
+  padding: 30px 35px;
 }
 
 .logo {
   font-family: 'Spartan', sans-serif;
+  color: #38a88e;
+  font-size: 24px;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+

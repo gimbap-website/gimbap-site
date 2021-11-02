@@ -3,11 +3,25 @@ import Button from '@mui/material/Button';
 
 
 export default function Navbar() {
-  return (
-    <div className="dark nav-bar">
+  window.onscroll = function() {myFunction()};
 
-      <Button variant="text">Demo</Button>
-      <Button variant="text">Documentation</Button>
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  return (
+    <div className="dark" id="navbar">
+      <div className="logo">gimbap</div>
+      <div className="nav-links">
+        <Button style={{color: '#655D5D'}} variant="text">Demo</Button>
+        <Button style={{color: '#655D5D'}} variant="text">Documentation</Button>
+      </div>
     </div>
   )
 }
