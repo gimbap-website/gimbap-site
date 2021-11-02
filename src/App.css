@@ -4,8 +4,12 @@ h1{
 
 html {
   background-color: #E1DBD2;
-  margin: -7px -7px -7px -7px;
+  /* margin: -7px -7px -7px -7px; */
   font-family: 'Roboto', sans-serif;
+}
+
+div {
+  padding: -5px;
 }
 
 #main-logo {
@@ -24,20 +28,16 @@ html {
 }
 
 #navbar {
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  padding: 30px 35px;
+  padding: 30px 30px 30px 60px;
+  width: 70%;
 }
 
 .logo {
   font-family: 'Spartan', sans-serif;
   color: #38a88e;
   font-size: 24px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 

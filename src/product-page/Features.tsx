@@ -7,6 +7,7 @@ import AssessmentRoundedIcon from '@mui/icons-material/AssessmentRounded';
 export default function Features() {
   return (
   <div className="light">
+    <Typography variant="h2" id="features-header">Measure Your Application’s Routing Efficiency</Typography>
     <GroupWorkRoundedIcon/>
       <Typography variant="h5" className="feature-header" id="feature-header-1">Cluster Reccomendations</Typography>
         <Typography variant="body1" className="feature-body" id="feature-body-1">Provide detailed recomendations on where your application could benefit from a move to a microservice architecture.</Typography>
