@@ -7,7 +7,7 @@ import AssessmentRoundedIcon from '@mui/icons-material/AssessmentRounded';
 
 export default function Features() {
   return (
-  <div className="light">
+  <div className="light section">
     {/* <ClusterGraph /> */}
     <Typography variant="h2" id="features-header">Measure Your Application’s Routing Efficiency</Typography>
     <GroupWorkRoundedIcon/>
