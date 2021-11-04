@@ -6,7 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Link from '@material-ui/core/Link';
 
-// https://mui.com/components/avatars/ <-- Reference for adding images as avatars
+// https://mui.com/components/avatars/ <-- Reference documentation for adding images as avatars
 
 export default function Credits() {
   return (
