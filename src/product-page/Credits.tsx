@@ -20,19 +20,41 @@ export default function Credits() {
     <Link href="https://www.linkedin.com/in/miguelh72/">
     <LinkedInIcon />
     </Link>
+
     <Avatar sx={{ bgcolor: "#28A78D", width: 100, height: 100 }}>AT</Avatar>
     <Typography variant="body1" id="credits-body2" color="textPrimary">Angelynn Truong</Typography>
-    <Link href="http://www.github.com">
+    <Link href="https://github.com/vngelynn">
     <GitHubIcon />
     </Link>
-    <Link href="https://www.linkedin.com/in/miguelh72/">
+    <Link href="https://www.linkedin.com/in/vngelynn/">
     <LinkedInIcon />
     </Link>
+
     <Avatar sx={{ bgcolor: "#28A78D", width: 100, height: 100 }}>SF</Avatar>
     <Typography variant="body1" id="credits-body3" color="textPrimary">Sebastien Fauque</Typography>
+    <Link href="https://github.com/SebastienFauque">
+    <GitHubIcon />
+    </Link>
+    <Link href="https://www.linkedin.com/in/sebastienfauque/">
+    <LinkedInIcon />
+    </Link>
+
     <Avatar sx={{ bgcolor: "#28A78D", width: 100, height: 100 }}>KI</Avatar>
     <Typography variant="body1" id="credits-body4" color="textPrimary">Khandker Islam</Typography>
+    <Link href="https://github.com/khandkerislam">
+    <GitHubIcon />
+    </Link>
+    <Link href="https://www.linkedin.com/in/khandkerislam/">
+    <LinkedInIcon />
+    </Link>
+
     <Avatar sx={{ bgcolor: "#28A78D", width: 100, height: 100 }}>PH</Avatar>
     <Typography variant="body1" id="credits-body5" color="textPrimary">Parker Hutcheson</Typography>
+    <Link href="https://github.com/Parker9706">
+    <GitHubIcon />
+    </Link>
+    <Link href="https://www.linkedin.com/in/parkerhutcheson/">
+    <LinkedInIcon />
+    </Link>
   </div> );
 }
