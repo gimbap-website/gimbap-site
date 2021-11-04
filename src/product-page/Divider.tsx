@@ -1,10 +1,37 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+
 
 export default function Divider() {
   return (
   <div className="dark">
- <Typography variant="h5" className="feature-header" id="feature-header-1">Cluster Reccomendations</Typography>
-   <Typography variant="body1" className="feature-body" id="feature-body-1">Provide detailed recomendations on where your application could benefit from a move to a microservice architecture.</Typography>
+  <Box
+      id="divider-box"
+      sx={{
+        width: "100%",
+        height: 350,
+        backgroundColor: '#6C6C6C',
+        '&:hover': {
+          backgroundColor: '28A78D',
+          opacity: [0.9, 0.8, 0.7],
+        },
+      }}
+    >
+      {/* All typography goes into the box/divider */}
+   <Typography variant="h5" className="why-header" id="why">Why Microservices?</Typography>
+
+   <Typography variant="body1" className="why-feature" id="why-feature-1-1/2">Up to</Typography>
+   <Typography variant="body1" className="why-feature-bold" id="why-feature-bold-1">4x</Typography>
+   <Typography variant="body1" className="why-feature" id="why-feature-2/2">increased speeds</Typography>
+
+   <Typography variant="body1" className="why-feature" id="why-feature-2-1/2">Up to</Typography>
+   <Typography variant="body1" className="why-feature-bold" id="why-feature-bold-2">4x</Typography>
+   <Typography variant="body1" className="why-feature" id="why-feature-2-2/2">increased speeds</Typography>
+
+   <Typography variant="body1" className="why-feature" id="why-feature-3-1/2">Up to</Typography>
+   <Typography variant="body1" className="why-feature-bold" id="why-feature-bold-3">4x</Typography>
+   <Typography variant="body1" className="why-feature" id="why-feature-3-2/2">increased speeds</Typography>
+</Box>
   </div> );
 }
