@@ -1,14 +1,12 @@
 import React, {useState, useEffect } from 'react';
 // import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
-import { IconButton, Button } from '@mui/material';
-
-
-
+import { IconButton, Button, Drawer } from '@mui/material';
 
 export default function Navbar() {
 
   const [mobileView, setMobileView] = useState(false);
+  const [hamburgerOpen, setHamburger] = useState(false);
 
   useEffect(() => {
     const setResponsiveness = () => {
@@ -20,27 +18,9 @@ export default function Navbar() {
 
     return () => {
       window.removeEventListener("resize", () => setResponsiveness());
+      
     }
   }, []);
-
-  const displayMobile = () => {
-    //we create functions handle click actions...
-
-    return (
-      <div>
-        <IconButton
-          {...{
-            edge: "start",
-            color: "inherit",
-            "aria-label": "menu",
-            "aria-haspopup": "true",
-          }}
-        >
-        <MenuIcon />
-        </IconButton>
-      </div>
-    )
-  }
 
   const displayDesktop = () => {
     return (
@@ -50,6 +30,46 @@ export default function Navbar() {
       </div>
     )
   }
+
+  const displayMobile = () => {
+    //we create functions handle click actions...
+    //const openHamburger = ()=> setHamburger(true);
+    //const closeHamburger = ()=> setHamburger(false);
+    // const toggleHamburger = ()=> setHamburger(!hamburger);
+
+    const handleDrawerOpen = () => setHamburger(true);
+    const handleDrawerClose = () => setHamburger(false);
+
+    return (
+      <div>
+        <IconButton
+          {...{
+            edge: "start",
+            color: "inherit",
+            "aria-label": "menu",
+            "aria-haspopup": "true",
+            // onClick: toggleHamburger
+            onClick: ()=>{ 
+              console.log('wtf')
+              setHamburger(true),
+            },
+          }}
+        >
+        <MenuIcon />
+        </IconButton>
+
+        <Drawer
+          {...{
+            anchor: "left",
+            open: hamburgerOpen,
+            onClose: ()=>handleDrawerClose,
+          }}
+        >
+          <div><p>hi khan</p></div>
+        </Drawer>
+      </div>
+    );
+  };
 
   return (
     <div className="dark" id="navbar">
