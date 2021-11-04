@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 
 export default function Splash() {
   return (
-    <div>
+    <div className="dark">
     <img id="main-logo" src={logo} />
     </div>
   )
