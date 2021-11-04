@@ -19,5 +19,7 @@ export default function Credits() {
     <Link href="https://www.linkedin.com">
     <LinkedInIcon />
     </Link>
+
+    {/* 24px medium article logo here */}
   </div> );
 }
