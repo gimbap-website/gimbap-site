@@ -49,13 +49,10 @@ export default function Navbar() {
             "aria-label": "menu",
             "aria-haspopup": "true",
             // onClick: toggleHamburger
-            onClick: ()=>{
-              console.log('wtf')
-              setHamburger(true),
-            },
+            onClick: ()=>console.log('ok')
           }}
         >
-        <MenuIcon />
+        <MenuIcon onClick={()=>console.log('ok')}/>
         </IconButton>
 
         <Drawer

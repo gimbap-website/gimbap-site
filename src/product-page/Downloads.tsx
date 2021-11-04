@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import AppleIcon from '@mui/icons-material/Apple';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WindowIcon from '@mui/icons-material/Window';
-import Link from '@material-ui/core/Link';
+import Link from '@mui/material/Link';
 
 
 export default function Downloads() {
