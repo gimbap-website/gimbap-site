@@ -18,7 +18,7 @@ export default function Navbar() {
 
     return () => {
       window.removeEventListener("resize", () => setResponsiveness());
-      
+
     }
   }, []);
 
@@ -49,7 +49,7 @@ export default function Navbar() {
             "aria-label": "menu",
             "aria-haspopup": "true",
             // onClick: toggleHamburger
-            onClick: ()=>{ 
+            onClick: ()=>{
               console.log('wtf')
               setHamburger(true),
             },
