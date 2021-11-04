@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MediumIcon from "./../../assets/medium-icon";
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
@@ -23,6 +24,8 @@ export default function Credits() {
     <Link href="https://www.linkedin.com/in/miguelh72/">
     <LinkedInIcon />
     </Link>
+    <img id="medium-icon" src={MediumIcon} />
+
 
 </Stack>
 

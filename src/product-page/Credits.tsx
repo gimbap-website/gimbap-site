@@ -20,6 +20,6 @@ export default function Credits() {
     <LinkedInIcon />
     </Link>
 
-    {/* 24px medium article logo here */}
+    {/* 24px medium article logo */}
   </div> );
 }
