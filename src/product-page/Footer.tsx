@@ -4,8 +4,8 @@ import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import MediumIcon from "./../../assets/medium-icon";
-import Link from '@material-ui/core/Link';
+import MediumIcon from './../../assets/medium-icon';
+import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 
 
