@@ -10,11 +10,16 @@ import Link from '@material-ui/core/Link'; //need to fix
 export default function Downloads() {
   return (
   <div className="light">
-    <Typography variant="h2" id="getting-started">Getting Started</Typography>
+    <Typography variant="h2" id="getting-started">let's get started</Typography>
     <Link href="http://www.github.com">
     <GitHubIcon />
     </Link>
+    <Link href="http://www.apple.com">
     <AppleIcon />
+    </Link>
+    <Link href="http://www.microsoft.com">
+      {/* Window Icon is not an original window; replacement needed */}
     <WindowIcon />
+    </Link>
   </div> );
 }
