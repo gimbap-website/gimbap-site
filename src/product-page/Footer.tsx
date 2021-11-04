@@ -25,7 +25,7 @@ export default function Credits() {
     <LinkedInIcon />
     </Link>
     {/* NEED TO ADJUST SIZE OF THIS ICON */}
-    {/* <img id="medium-icon"  src={MediumIcon} /> */}
+    <img id="medium-icon" width="24" height="24" src={MediumIcon} />
 
 
 </Stack>
