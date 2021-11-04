@@ -5,6 +5,7 @@ import Features from "./product-page/Features"
 import Splash from "./product-page/Splash"
 import Divider from "./product-page/Divider"
 import Downloads from "./product-page/Downloads"
+import Footer from "./product-page/Footer"
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
         <Divider />
         <Downloads />
         <Credits />
+        <Footer />
         <h2>Welcome to React Hell</h2>
         <h3>Date : {new Date().toDateString()}</h3>
     </div>
