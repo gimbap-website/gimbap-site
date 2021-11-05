@@ -7,6 +7,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MediumIcon from './../../assets/medium-icon';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
+import Grid from '@mui/material/Grid';
+
 
 
 // https://mui.com/components/avatars/ <-- Reference documentation for adding images as avatars
