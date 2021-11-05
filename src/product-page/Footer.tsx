@@ -15,7 +15,6 @@ export default function Credits() {
   return (
   <div className="dark">
 
-
     <Stack direction="row" spacing={2}>
 
     <Link href="https://github.com/miguelh72">

@@ -10,6 +10,7 @@ export default function useWindowSize(){
         return () => {
             window.removeEventListener("resize", () => setWindowSize({width: window.innerWidth, height: window.innerHeight}));
         }
+        
     },[]);
 
     return windowSize;

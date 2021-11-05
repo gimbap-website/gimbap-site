@@ -12,10 +12,6 @@ export default function Divider() {
         width: "100%",
         height: 350,
         backgroundColor: '#6C6C6C',
-        '&:hover': {
-          backgroundColor: '28A78D',
-          opacity: [0.9, 0.8, 0.7],
-        },
       }}
     >
       {/* All typography goes into the box/divider */}
