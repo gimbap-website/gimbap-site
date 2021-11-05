@@ -8,6 +8,7 @@ import MediumIcon from './../../assets/medium-icon';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
+import Box from '@mui/material/Box';
 
 
 
@@ -16,7 +17,7 @@ import Grid from '@mui/material/Grid';
 export default function Credits() {
   return (
   <div className="dark">
-
+    <Box sx={{ height: "700px", color: "#D4D0C3" }}>
     <Stack direction="row" spacing={2}>
 
     <Link href="https://github.com/miguelh72">
@@ -30,6 +31,7 @@ export default function Credits() {
 
 
 </Stack>
+</Box>
 
   </div> );
 }
