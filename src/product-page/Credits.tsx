@@ -31,7 +31,7 @@ export default function Credits() {
     </Grid>
 
     {/* Start of avatars */}
-
+    {/* Miguel */}
     <Grid
     container
     direction="row"
@@ -57,13 +57,14 @@ export default function Credits() {
     justifyContent="center"
     >
     <Link href="https://github.com/miguelh72">
-    <GitHubIcon />
+    <GitHubIcon id="credits-icon" />
     </Link>
     <Link href="https://www.linkedin.com/in/miguelh72/">
     <LinkedInIcon id="credits-icon" />
     </Link>
     </Grid>
 
+    {/* Angelynn */}
     <Grid
     container
     direction="row"
@@ -81,14 +82,23 @@ export default function Credits() {
     <Typography variant="body1" id="credits-body" color="textPrimary">
       Angelynn Truong
     </Typography>
+    </Grid>
+    <Grid
+    container
+    direction="row"
+    alignItems="center"
+    justifyContent="center"
+    >
     <Link href="https://github.com/vngelynn">
-    <GitHubIcon />
+    <GitHubIcon id="credits-icon" />
     </Link>
     <Link href="https://www.linkedin.com/in/vngelynn/">
-    <LinkedInIcon />
+    <LinkedInIcon id="credits-icon" />
     </Link>
     </Grid>
 
+
+    {/* Sebastien */}
     <Grid
     container
     direction="row"
@@ -104,13 +114,22 @@ export default function Credits() {
     justifyContent="center"
     >
     <Typography variant="body1" id="credits-body" color="textPrimary">Sebastien Fauque</Typography>
+    </Grid>
+    <Grid
+    container
+    direction="row"
+    alignItems="center"
+    justifyContent="center"
+    >
     <Link href="https://github.com/SebastienFauque">
-    <GitHubIcon />
+    <GitHubIcon id="credits-icon" />
     </Link>
     <Link href="https://www.linkedin.com/in/sebastienfauque/">
-    <LinkedInIcon />
+    <LinkedInIcon id="credits-icon" />
     </Link>
     </Grid>
+
+    {/* Khandker */}
 
     <Grid
     container
@@ -127,14 +146,22 @@ export default function Credits() {
     justifyContent="center"
     >
     <Typography variant="body1" id="credits-body" color="textPrimary">Khandker Islam</Typography>
+    </Grid>
+    <Grid
+    container
+    direction="row"
+    alignItems="center"
+    justifyContent="center"
+    >
     <Link href="https://github.com/khandkerislam">
-    <GitHubIcon />
+    <GitHubIcon id="credits-icon" />
     </Link>
     <Link href="https://www.linkedin.com/in/khandkerislam/">
-    <LinkedInIcon />
+    <LinkedInIcon id="credits-icon" />
     </Link>
     </Grid>
 
+    {/* Parker */}
     <Grid
     container
     direction="row"
@@ -151,10 +178,10 @@ export default function Credits() {
     >
     <Typography variant="body1" id="credits-body" color="textPrimary">Parker Hutcheson</Typography>
     <Link href="https://github.com/Parker9706">
-    <GitHubIcon />
+    <GitHubIcon id="credits-icon" />
     </Link>
     <Link href="https://www.linkedin.com/in/parkerhutcheson/">
-    <LinkedInIcon />
+    <LinkedInIcon id="credits-icon" />
     </Link>
     </Grid>
     </Grid>
