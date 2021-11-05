@@ -5,6 +5,8 @@ import { IconButton, Button, Drawer, Link } from '@mui/material';
 import Stack from '@mui/material/Stack';
 
 
+
+
 export default function Navbar() {
 
   const [mobileView, setMobileView] = useState(false);
@@ -75,7 +77,9 @@ export default function Navbar() {
 
   return (
     <div className="dark" id="navbar">
-      <div className="logo">gimbap</div>
+      <Link href="#top" underline="none">
+        <div className="logo">gimbap</div>
+      </Link>
       {mobileView ? displayMobile() : displayDesktop()}
     </div>
   )
