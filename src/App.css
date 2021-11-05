@@ -37,6 +37,14 @@ h1{
   z-index: 999;
 }
 
+.section {
+  padding: 2em;
+}
+
+.MuiTypography-h5.feature-header, .MuiTypography-h2#features-header{
+  font-family: 'Spartan', sans-serif;
+}
+
 .logo {
   font-family: 'Spartan', sans-serif;
   color: #38a88e;
