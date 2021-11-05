@@ -43,5 +43,9 @@ h1{
   font-size: 24px;
 }
 
+.logo:hover {
+  opacity: 70%;
+}
+
 /* TO DO: WHEN HOVER OVER GIMBAP LOGO,TRANSPARENT */
 
