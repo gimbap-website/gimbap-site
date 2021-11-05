@@ -3,8 +3,6 @@ import logo from './../../assets/gimbap-logo-green.png';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 
-
-
 export default function Splash() {
   return (
     <div className="dark">
