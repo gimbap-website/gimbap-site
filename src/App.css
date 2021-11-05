@@ -51,3 +51,18 @@ h1{
   font-family: 'Spartan', sans-serif;
   color: #38a88e;
 }
+
+#credits-header {
+  font-family: 'Spartan', sans-serif;
+  color: #38a88e;
+}
+
+#credits-body {
+  font-family: 'Roboto Bold', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#credits-icon {
+  font-size: 40px;
+}
