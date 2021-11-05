@@ -7,8 +7,9 @@ import WindowIcon from '@mui/icons-material/Window';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
+import WindowsLogo from './../../assets/windows-logo.png'; //TODO: Change this to site color
 
-
+// Defines our Icon sizes for this page
 
 export default function Downloads() {
   return (
@@ -29,21 +30,18 @@ export default function Downloads() {
     direction="row"
     alignItems="center"
     justifyContent="center"
-    style={{ minHeight: '300px' }}
+    style={{ minHeight: '100px' }}
     >
-        <Grid item xs={0}>
 
     <Link href="http://www.github.com">
-    <GitHubIcon sx={{color: "red"}} />
+      <GitHubIcon style={{ fill: "#28A78D" }} sx={{ fontSize: 60 }}/>
     </Link>
     <Link href="http://www.apple.com">
-    <AppleIcon />
+      <AppleIcon style={{ fill: "#28A78D" }} sx={{ fontSize: 60 }}/>
     </Link>
     <Link href="http://www.microsoft.com">
-      {/* Window Icon is not an original window; replacement needed */}
-    <WindowIcon />
+      <img src={WindowsLogo} width="60" height="60" />
     </Link>
-    </Grid>
     </Grid>
     </Box>
   </div> );
