@@ -1,7 +1,9 @@
 import React, {useState, useEffect } from 'react';
 // import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
-import { IconButton, Button, Drawer } from '@mui/material';
+import { IconButton, Button, Drawer, Link } from '@mui/material';
+import Stack from '@mui/material/Stack';
+
 
 export default function Navbar() {
 
@@ -28,8 +30,8 @@ export default function Navbar() {
         <Button style={{color: '#655D5D'}} variant="text">Demo</Button>
         <Button style={{color: '#655D5D'}} variant="text">Documentation</Button>
       </div>
-    )
-  }
+    );
+  };
 
   const displayMobile = () => {
     //we create functions handle click actions...
@@ -49,20 +51,23 @@ export default function Navbar() {
             "aria-label": "menu",
             "aria-haspopup": "true",
             // onClick: toggleHamburger
-            onClick: ()=>console.log('ok')
+            onClick: handleDrawerOpen,
           }}
         >
-        <MenuIcon onClick={()=>console.log('ok')}/>
+        <MenuIcon />
         </IconButton>
 
         <Drawer
           {...{
-            anchor: "left",
+            anchor: "right",
             open: hamburgerOpen,
-            onClose: ()=>handleDrawerClose,
+            onClose: handleDrawerClose,
           }}
         >
-          <div><p>hi khan</p></div>
+          <Stack spacing={1} justifyContent="center" alignItems="center">
+            <Link href="#" underline="none"><Button>Demo</Button></Link>
+            <Link href="#" underline="none"><Button>Document</Button></Link>
+          </Stack>
         </Drawer>
       </div>
     );

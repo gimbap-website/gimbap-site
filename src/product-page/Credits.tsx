@@ -14,6 +14,7 @@ export default function Credits() {
   return (
     <div className="dark">
     <Typography variant="h2" component="h2" id="credits" color="textPrimary">the gimbap team</Typography>
+    <Stack direction="row" spacing={2}>
     <Avatar sx={{ bgcolor: "#28A78D", width: 100, height: 100 }}>MH</Avatar>
     <Typography variant="body1" id="credits-body1" color="textPrimary">Miguel Hernandez</Typography>
     <Link href="https://github.com/miguelh72">
@@ -58,5 +59,6 @@ export default function Credits() {
     <Link href="https://www.linkedin.com/in/parkerhutcheson/">
     <LinkedInIcon />
     </Link>
+    </Stack>
   </div> );
 }
