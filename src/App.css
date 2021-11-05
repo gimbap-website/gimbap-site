@@ -47,5 +47,7 @@ h1{
   opacity: 70%;
 }
 
-/* TO DO: WHEN HOVER OVER GIMBAP LOGO,TRANSPARENT */
-
+#getting-started {
+  font-family: 'Spartan', sans-serif;
+  color: #38a88e;
+}
