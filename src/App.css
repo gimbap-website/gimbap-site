@@ -6,7 +6,7 @@
 }
 
 h1{
-  color: teal
+  color: #28A78D;
 }
 
 #main-logo {
@@ -37,11 +37,27 @@ h1{
   z-index: 999;
 }
 
+.section {
+  padding: 2em;
+}
+
+.MuiTypography-h5.feature-header, .MuiTypography-h2.why-header, .MuiTypography-h2#features-header
+{
+  font-family: 'Spartan', sans-serif;
+}
+
 .logo {
   font-family: 'Spartan', sans-serif;
   color: #38a88e;
   font-size: 24px;
 }
 
+.MuiTypography-body1.why-feature-bold {
+  font-family: 'Spartan', sans-serif;
+  color: #28a78d;
+  font-weight: 1000;
+  font-size: 2em;
+  
+}
 /* TO DO: WHEN HOVER OVER GIMBAP LOGO,TRANSPARENT */
 
