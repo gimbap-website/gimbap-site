@@ -95,8 +95,8 @@ h1{
 }
 
 #credits-body {
-  font-family: 'Spartan', sans-serif;
-  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
 }
 
 .MuiTypography-body1.why-feature-bold {
@@ -107,6 +107,11 @@ h1{
 }
 
 #credits-icon {
+  color: #52514e;
+  font-size: 40px;
+}
+
+#credits-icon:hover {
   color: #28A78D;
   font-size: 40px;
 }
@@ -133,4 +138,18 @@ h1{
   width: 40px;
   border-radius: 50%;
   padding: 5px;
+}
+
+.chevron-down {
+  padding-top: 35px;
+  opacity: 30%;
+  fill: #52514E;
+  margin: auto;
+  width: 4em;
+  height: 5em;
+  animation: hover-me .8s infinite ease-in-out alternate;
+}
+
+@keyframes hover-me {
+  100% { transform: translate3d(0, 25px, 0); }
 }
