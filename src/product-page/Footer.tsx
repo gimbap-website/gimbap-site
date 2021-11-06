@@ -10,6 +10,7 @@ import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Medium from './../../assets/medium';
+import logo from './../../assets/gimbap-logo-green.png';
 
 
 
@@ -32,6 +33,7 @@ export default function Credits() {
     </Box>
 
     <Box>
+    <img src={logo} width="30" />
     </Box>
 
   </div> );
