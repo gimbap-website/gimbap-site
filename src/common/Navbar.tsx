@@ -1,13 +1,12 @@
 import React, {useState, useEffect } from 'react';
 // import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
-import { IconButton, Button, Drawer, Link } from '@mui/material';
+import { IconButton, Button, Drawer } from '@mui/material';
+import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
+import {Link as RouterLink} from 'react-router-dom';
 
-
-
-
-export default function Navbar() {
+export default function Navbar () {
 
   const [mobileView, setMobileView] = useState(false);
   const [hamburgerOpen, setHamburger] = useState(false);
@@ -29,8 +28,12 @@ export default function Navbar() {
   const displayDesktop = () => {
     return (
       <div>
-        <Button id="nav-button" variant="text">Demo</Button>
-        <Button id="nav-button" variant="text">Documentation</Button>
+        <Link component={RouterLink} to='/demo'>
+          <Button style={{color: '#655D5D'}} variant="text">Demo</Button>
+        </Link>
+        <Link component={RouterLink} to='/documentation'>
+          <Button style={{color: '#655D5D'}} variant="text">Documentation</Button>
+        </Link>
       </div>
     );
   };
@@ -67,8 +70,12 @@ export default function Navbar() {
           }}
         >
           <Stack spacing={1} justifyContent="center" alignItems="center">
-            <Link href="#" underline="none"><Button id="mobile-nav-button">Demo</Button></Link>
-            <Link href="#" underline="none"><Button id="mobile-nav-button">Document</Button></Link>
+            <Link component={RouterLink} to='/demo'>
+              <Button>Demo</Button>
+            </Link>
+            <Link component={RouterLink} to="/documentation">
+              <Button>Document</Button>
+            </Link>
           </Stack>
         </Drawer>
       </div>
@@ -77,7 +84,7 @@ export default function Navbar() {
 
   return (
     <div className="dark" id="navbar">
-      <Link href="#top" underline="none">
+      <Link component={RouterLink} to='/' underline='none'>
         <div className="logo">gimbap</div>
       </Link>
       {mobileView ? displayMobile() : displayDesktop()}
