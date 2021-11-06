@@ -31,7 +31,8 @@ export default function Credits() {
     </Link>
     </Box>
 
-  <Box>
+    <Box>
+    </Box>
 
   </div> );
 
