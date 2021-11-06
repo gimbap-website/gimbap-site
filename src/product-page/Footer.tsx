@@ -9,6 +9,7 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
+import Medium from './../../assets/medium';
 
 
 
@@ -16,28 +17,23 @@ import Box from '@mui/material/Box';
 
 export default function Credits() {
   return (
-  <div className="light">
-    <Box sx={{ height: "5px" }}>
-    <Grid
-    marginLeft={4}
-    container
-    direction="row"
-    alignItems="center"
-    justifyContent="left"
-    style={{ minHeight: '100px' }}
-    spacing={5}
-    >
-
+  <div className="dark section">
+    <Box>
     <Link href="https://github.com/miguelh72">
-    <GitHubIcon />
+    <GitHubIcon fontSize="large"/>
     </Link>
     <Link href="https://www.linkedin.com/in/miguelh72/">
-    <LinkedInIcon />
+    <LinkedInIcon fontSize="large"/>
     </Link>
     {/* NEED TO ADJUST SIZE OF THIS ICON */}
-    <img id="medium-icon" width="24" height="24" src={MediumIcon} />
-</Grid>
-</Box>
+    <Link href="https://www.linkedin.com/in/miguelh72/">
+    <img id="medium-icon" width="30" src={Medium} />
+    </Link>
+    </Box>
+
+  <Box>
 
   </div> );
+
+
 }
