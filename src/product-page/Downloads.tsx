@@ -35,13 +35,13 @@ export default function Downloads() {
     >
 
     <Link href="https://github.com/oslabs-beta/gimbap" target="_blank" rel="noopener">
-      <GitHubIcon style={{ fill: "#28A78D" }} sx={{ fontSize: 60 }}/>
+      <GitHubIcon id="download-icon" />
     </Link>
     <Link href="http://www.apple.com" target="_blank" rel="noopener">
-      <AppleIcon style={{ fill: "#28A78D" }} sx={{ fontSize: 60 }}/>
+      <AppleIcon id="download-icon" />
     </Link>
     <Link href="http://www.microsoft.com" target="_blank" rel="noopener">
-      <img src={WindowsLogo} width="60" height="60" />
+      <img id="custom-download-icon" src={WindowsLogo} width="60" height="60" />
     </Link>
     </Grid>
     </Box>
