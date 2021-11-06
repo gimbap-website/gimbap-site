@@ -17,24 +17,33 @@ import GimbapIcon from './../../assets/gimbap-logo-notext.png';
 // https://mui.com/components/avatars/ <-- Reference documentation for adding images as avatars
 
 export default function Credits() {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
   <div className="dark section">
+
+  {/* Need to change the url for below links */}
     <Stack direction="row" alignItems="center" justifyContent="space-between">
-    <Box width="">
-    <Link href="https://github.com/miguelh72">
-    <GitHubIcon fontSize="large"/>
+    <Box width={247.60} alignContent="center">
+    <Link href="https://github.com/oslabs-beta/gimbap" target="_blank" rel="noopener">
+    <GitHubIcon sx={{ color: '#FFF' }} fontSize="large" />
     </Link>
-    <Link href="https://www.linkedin.com/in/miguelh72/">
-    <LinkedInIcon fontSize="large"/>
+    <Link href="https://www.linkedin.com/" target="_blank" rel="noopener">
+    <LinkedInIcon sx={{ color: '#FFF' }} fontSize="large"/>
     </Link>
-    {/* NEED TO ADJUST SIZE OF THIS ICON */}
-    <Link href="https://www.linkedin.com/in/miguelh72/">
-    <img id="medium-icon" width="30" src={Medium} />
+    <Link href="https://medium.com/tag/humor" target="_blank" rel="noopener">
+    <img id="medium-icon" src={Medium} />
     </Link>
     </Box>
 
     <Box>
-    <img src={GimbapIcon} width="30" />
+    <img src={GimbapIcon} id="backToTop" onClick={scrollToTop}/>
     </Box>
 
     <Box>
