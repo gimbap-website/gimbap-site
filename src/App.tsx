@@ -1,23 +1,19 @@
 import React from "react"
-import Credits from "./product-page/Credits"
-import NavBar from "./common/Navbar"
-import Features from "./product-page/Features"
-import Splash from "./product-page/Splash"
-import Divider from "./product-page/Divider"
-import Downloads from "./product-page/Downloads"
-import Footer from "./product-page/Footer"
-import Typography from '@mui/material/Typography';
+import Homepage from './product-page/Homepage'
+import NavBar from './common/Navbar'
+import {BrowserRouter as Router, Route, Link as RouterLink, Routes} from 'react-router-dom';
+import Documentation from "./documentation/Documentation";
 
 function App() {
     return (
             <div id="test">
+             <Router>
                 <NavBar />
-                <Splash />
-                <Features />
-                <Divider />
-                <Downloads />
-                <Credits />
-                <Footer />
+                <Routes>
+                    <Route path='/' element={<Homepage/>}/>
+                    <Route path="/documentation" element={<Documentation/>}/>
+                </Routes>
+            </Router>
             </div>
     )
 }

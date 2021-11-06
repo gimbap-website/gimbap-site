@@ -7,7 +7,7 @@ import WindowIcon from '@mui/icons-material/Window';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
-import WindowsLogo from './../../assets/windows-logo.png';
+//import WindowsLogo from './../../assets/windows-logo.png';
 
 // Defines our Icon sizes for this page
 
@@ -40,8 +40,8 @@ export default function Downloads() {
     <Link href="http://www.apple.com" target="_blank" rel="noopener">
       <AppleIcon id="download-icon" />
     </Link>
-    <Link href="http://www.microsoft.com" target="_blank" rel="noopener">
-      <img id="custom-download-icon" src={WindowsLogo} width="60" height="60" />
+    <Link component="button" href="http://www.microsoft.com" target="_blank" rel="noopener">
+      {/* <img id="custom-download-icon" src={WindowsLogo} width="60" height="60" /> */}
     </Link>
     </Grid>
     </Box>
