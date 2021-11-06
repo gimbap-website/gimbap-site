@@ -35,7 +35,7 @@ export default function Credits() {
           the gimbap team
         </Typography>
       </Grid>
-      <Stack direction="row" spacing={7}   justifyContent="center">
+      <Stack direction="row" spacing={7} justifyContent="center">
         <Khandker />
         <Miguel />
         <Angelynn />
