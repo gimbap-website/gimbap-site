@@ -13,7 +13,7 @@ import Box from '@mui/material/Box';
 export default function Features() {
   return (
 
-    <div className="light section">
+    <div id="features" className="light section">
       {/* <ClusterGraph /> */}
       <Stack spacing={12}>
         <Box>
