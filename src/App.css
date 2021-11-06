@@ -81,3 +81,16 @@ h1{
 #credits-icon {
   font-size: 40px;
 }
+
+#download-icon {
+  color: #28A78D;
+  font-size: 60px;
+}
+
+#download-icon:hover {
+  opacity: 70%;
+}
+
+#custom-download-icon:hover {
+  opacity: 70%;
+}
