@@ -30,15 +30,18 @@ export default function Credits() {
     </Typography>
     </Grid>
 
-    {/* Start of avatars */}
-    {/* Miguel */}
-    <Grid
+{/* overall grid */}
+    {/* <Grid
     container
-    direction="row"
+    direction="column"
     alignItems="center"
     justifyContent="center"
-    style={{ minHeight: '300px' }}
-    >
+    style={{ minHeight: '2s00px' }}
+    > */}
+<Stack direction="row">
+       {/* Start of avatars */}
+    {/* Miguel */}
+    {/* <Stack direction="row" spacing={10}> */}
     <Avatar sx={{ bgcolor: "#28A78D", width: 100, height: 100 }}>MH</Avatar>
     <Grid
     container
@@ -177,6 +180,13 @@ export default function Credits() {
     justifyContent="center"
     >
     <Typography variant="body1" id="credits-body" color="textPrimary">Parker Hutcheson</Typography>
+    </Grid>
+    <Grid
+    container
+    direction="row"
+    alignItems="center"
+    justifyContent="center"
+    >
     <Link href="https://github.com/Parker9706">
     <GitHubIcon id="credits-icon" />
     </Link>
@@ -184,7 +194,8 @@ export default function Credits() {
     <LinkedInIcon id="credits-icon" />
     </Link>
     </Grid>
-    </Grid>
+    {/* </Grid> */}
+    </Stack>
     </Box>
   </div> );
 }
