@@ -8,6 +8,8 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
+import AngelynnT from "./../../../assets/pokemon/lazy";
+
 export default function Angelynn() {
   return (
     <div id="angelynn">
@@ -17,7 +19,7 @@ export default function Angelynn() {
       alignItems="center"
       justifyContent="center"
       >
-        <Avatar id="avatar" sx={{ bgcolor: "#28A78D" }}>AT</Avatar>
+        <Avatar id="avatar" src={AngelynnT} />
       </Grid>
       <Grid
       container

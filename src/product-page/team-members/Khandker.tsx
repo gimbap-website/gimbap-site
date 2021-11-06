@@ -8,6 +8,8 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
+import Khan from "./../../../assets/pokemon/carp";
+
 export default function Khandker() {
   return (
     <div id="khandker">
@@ -17,7 +19,7 @@ export default function Khandker() {
       alignItems="center"
       justifyContent="center"
       >
-        <Avatar id="avatar" sx={{ bgcolor: "#28A78D" }}>KI</Avatar>
+        <Avatar id="avatar" src={Khan} />
       </Grid>
       <Grid
       container
