@@ -94,3 +94,8 @@ h1{
 #custom-download-icon:hover {
   opacity: 70%;
 }
+
+#avatar {
+  width: 150px;
+  height: 150px;
+}
