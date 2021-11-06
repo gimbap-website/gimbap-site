@@ -16,9 +16,17 @@ import Box from '@mui/material/Box';
 
 export default function Credits() {
   return (
-  <div className="dark">
-    <Box sx={{ height: "700px", color: "#D4D0C3" }}>
-    <Stack direction="row" spacing={2}>
+  <div className="light">
+    <Box sx={{ height: "5px" }}>
+    <Grid
+    marginLeft={4}
+    container
+    direction="row"
+    alignItems="center"
+    justifyContent="left"
+    style={{ minHeight: '100px' }}
+    spacing={5}
+    >
 
     <Link href="https://github.com/miguelh72">
     <GitHubIcon />
@@ -28,9 +36,7 @@ export default function Credits() {
     </Link>
     {/* NEED TO ADJUST SIZE OF THIS ICON */}
     <img id="medium-icon" width="24" height="24" src={MediumIcon} />
-
-
-</Stack>
+</Grid>
 </Box>
 
   </div> );
