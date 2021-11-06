@@ -39,6 +39,23 @@ h1{
   z-index: 999;
 }
 
+#nav-button {
+  font-family: 'Roboto Bold', sans-serif;
+  color: #655D5D;
+}
+
+#nav-button:hover {
+  color: #38a88e;
+}
+
+#mobile-nav-button {
+  color: #655D5D;
+}
+
+#mobile-nav-button:hover {
+  color: #38a88e;
+}
+
 .section {
   padding: 2em;
 }
