@@ -75,6 +75,15 @@ h1{
   opacity: 70%;
 }
 
+#backToTop {
+  opacity: 60%;
+  width: 50px;
+}
+
+#backToTop:hover {
+  opacity: 100%;
+}
+
 #getting-started {
   font-family: 'Spartan', sans-serif;
   color: #38a88e;
@@ -86,10 +95,10 @@ h1{
 }
 
 #credits-body {
-  font-family: 'Roboto Bold', sans-serif;
-  font-weight: bold;
+  font-family: 'Spartan', sans-serif;
   font-size: 17px;
 }
+
 .MuiTypography-body1.why-feature-bold {
   font-family: 'Spartan', sans-serif;
   color: #28a78d;
@@ -98,6 +107,7 @@ h1{
 }
 
 #credits-icon {
+  color: #28A78D;
   font-size: 40px;
 }
 
@@ -117,4 +127,10 @@ h1{
 #avatar {
   width: 150px;
   height: 150px;
+}
+
+#medium-icon {
+  width: 40px;
+  border-radius: 50%;
+  padding: 5px;
 }
