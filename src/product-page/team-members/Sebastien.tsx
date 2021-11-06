@@ -8,6 +8,9 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
+import Seb from "./../../../assets/pokemon/butter";
+
+
 export default function Sebastien() {
   return (
     <div id="sebastien">
@@ -17,7 +20,7 @@ export default function Sebastien() {
       alignItems="center"
       justifyContent="center"
       >
-        <Avatar id="avatar" sx={{ bgcolor: "#28A78D" }}>SF</Avatar>
+        <Avatar id="avatar" src={Seb} />
       </Grid>
       <Grid
       container
@@ -34,7 +37,7 @@ export default function Sebastien() {
       justifyContent="center"
       >
         <Link href="https://github.com/SebastienFauque">
-          <GitHubIcon id="credits-icon" />
+          <GitHubIcon id="credits-icon"/>
         </Link>
         <Link href="https://www.linkedin.com/in/sebastienfauque/">
           <LinkedInIcon id="credits-icon" />

@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  /* max-width: 100%; */
+  /* overflow-x: hidden; */
 }
 
 h1{
@@ -37,6 +39,23 @@ h1{
   z-index: 999;
 }
 
+#nav-button {
+  font-family: 'Roboto Bold', sans-serif;
+  color: #655D5D;
+}
+
+#nav-button:hover {
+  color: #38a88e;
+}
+
+#mobile-nav-button {
+  color: #655D5D;
+}
+
+#mobile-nav-button:hover {
+  color: #38a88e;
+}
+
 .section {
   padding: 2em;
 }
@@ -56,6 +75,15 @@ h1{
   opacity: 70%;
 }
 
+#backToTop {
+  opacity: 60%;
+  width: 50px;
+}
+
+#backToTop:hover {
+  opacity: 100%;
+}
+
 #getting-started {
   font-family: 'Spartan', sans-serif;
   color: #38a88e;
@@ -67,10 +95,10 @@ h1{
 }
 
 #credits-body {
-  font-family: 'Roboto Bold', sans-serif;
-  font-weight: bold;
-  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
 }
+
 .MuiTypography-body1.why-feature-bold {
   font-family: 'Spartan', sans-serif;
   color: #28a78d;
@@ -79,6 +107,12 @@ h1{
 }
 
 #credits-icon {
+  color: #52514e;
+  font-size: 40px;
+}
+
+#credits-icon:hover {
+  color: #28A78D;
   font-size: 40px;
 }
 
@@ -98,4 +132,24 @@ h1{
 #avatar {
   width: 150px;
   height: 150px;
+}
+
+#medium-icon {
+  width: 40px;
+  border-radius: 50%;
+  padding-left: 5px;
+}
+
+.chevron-down {
+  padding-top: 35px;
+  opacity: 30%;
+  fill: #52514E;
+  margin: auto;
+  width: 4em;
+  height: 5em;
+  animation: hover-me .8s infinite ease-in-out alternate;
+}
+
+@keyframes hover-me {
+  100% { transform: translate3d(0, 25px, 0); }
 }
