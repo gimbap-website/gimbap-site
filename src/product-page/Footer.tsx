@@ -5,11 +5,14 @@ import Avatar from '@mui/material/Avatar';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MediumIcon from './../../assets/medium-icon';
+
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Medium from './../../assets/medium';
+import Medium2 from './../../assets/medium-green';
+
 import GimbapIcon from './../../assets/gimbap-logo-notext.png';
 
 
@@ -32,13 +35,16 @@ export default function Credits() {
     <Stack direction="row" alignItems="center" justifyContent="space-between">
     <Box width={247.60} alignContent="center">
     <Link href="https://github.com/oslabs-beta/gimbap" target="_blank" rel="noopener">
-    <GitHubIcon sx={{ color: '#FFF' }} fontSize="large" />
+    <GitHubIcon className="footerIcons" fontSize="large" />
     </Link>
     <Link href="https://www.linkedin.com/" target="_blank" rel="noopener">
-    <LinkedInIcon sx={{ color: '#FFF' }} fontSize="large"/>
+    <LinkedInIcon className="footerIcons" fontSize="large"/>
     </Link>
     <Link href="https://medium.com/tag/humor" target="_blank" rel="noopener">
-    <img id="medium-icon" src={Medium} />
+    <img id="medium-icon"
+        src={Medium}
+        onMouseOver={e => (e.currentTarget.src = {Medium})}
+    />
     </Link>
     </Box>
 

@@ -135,9 +135,18 @@ h1{
 }
 
 #medium-icon {
-  width: 40px;
-  border-radius: 50%;
-  padding-left: 5px;
+  width: 33px;
+  height: 33px;
+  border-radius: 20px;
+  /* padding-left: 5px; */
+}
+
+.footerIcons {
+  color: #655D5D;
+}
+
+.footerIcons:hover {
+  color: #28a78d;
 }
 
 .chevron-down {
