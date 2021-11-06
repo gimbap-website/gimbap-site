@@ -29,8 +29,8 @@ export default function Navbar() {
   const displayDesktop = () => {
     return (
       <div>
-        <Button style={{color: '#655D5D'}} variant="text">Demo</Button>
-        <Button style={{color: '#655D5D'}} variant="text">Documentation</Button>
+        <Button id="nav-button" variant="text">Demo</Button>
+        <Button id="nav-button" variant="text">Documentation</Button>
       </div>
     );
   };
@@ -67,8 +67,8 @@ export default function Navbar() {
           }}
         >
           <Stack spacing={1} justifyContent="center" alignItems="center">
-            <Link href="#" underline="none"><Button>Demo</Button></Link>
-            <Link href="#" underline="none"><Button>Document</Button></Link>
+            <Link href="#" underline="none"><Button id="mobile-nav-button">Demo</Button></Link>
+            <Link href="#" underline="none"><Button id="mobile-nav-button">Document</Button></Link>
           </Stack>
         </Drawer>
       </div>

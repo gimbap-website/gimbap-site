@@ -9,35 +9,49 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
+import Medium from './../../assets/medium';
+import GimbapIcon from './../../assets/gimbap-logo-notext.png';
 
 
 
 // https://mui.com/components/avatars/ <-- Reference documentation for adding images as avatars
 
 export default function Credits() {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
-  <div className="light">
-    <Box sx={{ height: "5px" }}>
-    <Grid
-    marginLeft={4}
-    container
-    direction="row"
-    alignItems="center"
-    justifyContent="left"
-    style={{ minHeight: '100px' }}
-    spacing={5}
-    >
+  <div className="dark section">
 
-    <Link href="https://github.com/miguelh72">
-    <GitHubIcon />
+  {/* Need to change the url for below links */}
+    <Stack direction="row" alignItems="center" justifyContent="space-between">
+    <Box width={247.60} alignContent="center">
+    <Link href="https://github.com/oslabs-beta/gimbap" target="_blank" rel="noopener">
+    <GitHubIcon sx={{ color: '#FFF' }} fontSize="large" />
     </Link>
-    <Link href="https://www.linkedin.com/in/miguelh72/">
-    <LinkedInIcon />
+    <Link href="https://www.linkedin.com/" target="_blank" rel="noopener">
+    <LinkedInIcon sx={{ color: '#FFF' }} fontSize="large"/>
     </Link>
-    {/* NEED TO ADJUST SIZE OF THIS ICON */}
-    <img id="medium-icon" width="24" height="24" src={MediumIcon} />
-</Grid>
-</Box>
+    <Link href="https://medium.com/tag/humor" target="_blank" rel="noopener">
+    <img id="medium-icon" src={Medium} />
+    </Link>
+    </Box>
 
+    <Box>
+    <img src={GimbapIcon} id="backToTop" onClick={scrollToTop}/>
+    </Box>
+
+    <Box>
+      <Typography align="right">Accelerated by OSLabs</Typography>
+      <Typography align="right">2021 Gimbap™ All Rights Reserved</Typography>
+    </Box>
+  </Stack>
   </div> );
+
+
 }

@@ -8,6 +8,9 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
+import MiguelH from "./../../../assets/pokemon/mewtoo";
+
+
 export default function Miguel() {
   return (
     <div id="miguel">
@@ -17,7 +20,7 @@ export default function Miguel() {
       alignItems="center"
       justifyContent="center"
       >
-        <Avatar id="avatar" sx={{ bgcolor: "#28A78D" }}>MH</Avatar>
+        <Avatar id="avatar" src={MiguelH} />
       </Grid>
       <Grid
       container
@@ -34,7 +37,7 @@ export default function Miguel() {
       justifyContent="center"
       >
         <Link href="https://github.com/miguelh72">
-          <GitHubIcon id="credits-icon" />
+          <GitHubIcon id="credits-icon"/>
         </Link>
         <Link href="https://www.linkedin.com/in/miguelh72/">
           <LinkedInIcon id="credits-icon" />

@@ -8,6 +8,11 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
+import Park from "./../../../assets/pokemon/piplup";
+
+
+
+
 export default function Parker() {
   return (
     <div id="parker">
@@ -17,7 +22,7 @@ export default function Parker() {
       alignItems="center"
       justifyContent="center"
       >
-        <Avatar id="avatar" sx={{ bgcolor: "#28A78D" }}>PH</Avatar>
+        <Avatar id="avatar" src={Park} />
       </Grid>
       <Grid
       container
