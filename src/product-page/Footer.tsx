@@ -10,7 +10,7 @@ import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Medium from './../../assets/medium';
-import logo from './../../assets/gimbap-logo-green.png';
+import GimbapIcon from './../../assets/gimbap-logo-notext.png';
 
 
 
@@ -19,7 +19,8 @@ import logo from './../../assets/gimbap-logo-green.png';
 export default function Credits() {
   return (
   <div className="dark section">
-    <Box>
+    <Stack direction="row" alignItems="center" justifyContent="space-between">
+    <Box width="">
     <Link href="https://github.com/miguelh72">
     <GitHubIcon fontSize="large"/>
     </Link>
@@ -33,9 +34,14 @@ export default function Credits() {
     </Box>
 
     <Box>
-    <img src={logo} width="30" />
+    <img src={GimbapIcon} width="30" />
     </Box>
 
+    <Box>
+      <Typography align="right">Accelerated by OSLabs</Typography>
+      <Typography align="right">2021 Gimbap™ All Rights Reserved</Typography>
+    </Box>
+  </Stack>
   </div> );
 
 
