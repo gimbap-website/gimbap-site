@@ -28,11 +28,11 @@ export default function Navbar () {
   const displayDesktop = () => {
     return (
       <div>
-        <Link component={RouterLink} to='/demo'>
-          <Button style={{color: '#655D5D'}} variant="text">Demo</Button>
+        <Link id="nav-link" component={RouterLink} to='/demo'>
+          <Button id="nav-button" style={{color: '#655D5D'}} variant="text">Demo</Button>
         </Link>
-        <Link component={RouterLink} to='/documentation'>
-          <Button style={{color: '#655D5D'}} variant="text">Documentation</Button>
+        <Link id="nav-link" component={RouterLink} to='/documentation'>
+          <Button id="nav-button" style={{color: '#655D5D'}} variant="text">Documentation</Button>
         </Link>
       </div>
     );

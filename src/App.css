@@ -48,6 +48,11 @@ h1{
   color: #38a88e;
 }
 
+#nav-link {
+  color: red;
+}
+
+
 #mobile-nav-button {
   color: #655D5D;
 }
@@ -86,8 +91,16 @@ h1{
 
 #getting-started {
   font-family: 'Spartan', sans-serif;
+  font-size: 80px;
   color: #38a88e;
 }
+
+#select-platform {
+  font-style: italic;
+  font-size: 23px;
+  text-align: center;
+}
+
 
 #credits-header {
   font-family: 'Spartan', sans-serif;
@@ -134,11 +147,20 @@ h1{
   height: 150px;
 }
 
-#medium-icon {
-  width: 40px;
-  border-radius: 50%;
-  padding-left: 5px;
+#avatar:hover {
+  opacity: 0.8;
 }
+
+#medium-icon {
+  width: 33px;
+  height: 33px;
+  border-radius: 20px;
+}
+
+.footerIcons {
+  color: #655D5D;
+}
+
 
 .chevron-down {
   padding-top: 35px;
@@ -148,6 +170,15 @@ h1{
   width: 4em;
   height: 5em;
   animation: hover-me .8s infinite ease-in-out alternate;
+}
+
+#os-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#os-link:hover {
+  color: #28a78d;
 }
 
 @keyframes hover-me {

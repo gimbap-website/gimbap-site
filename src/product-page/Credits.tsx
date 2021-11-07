@@ -23,7 +23,7 @@ import Sebastien from './team-members/Sebastien'
 export default function Credits() {
   return (
     <div className="dark">
-    <Box sx={{ height: "600px", color: "#D4D0C3" }}>
+    <Box minHeight="80vh" sx={{ color: "#D4D0C3" }}>
       {/* Header */}
       <Grid
       container
