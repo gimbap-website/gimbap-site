@@ -3,6 +3,7 @@ import Homepage from './product-page/Homepage'
 import NavBar from './common/Navbar'
 import {BrowserRouter as Router, Route, Link as RouterLink, Routes} from 'react-router-dom';
 import Documentation from "./documentation/Documentation";
+import Demo from "./demo/Demo";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                 <Routes>
                     <Route path='/' element={<Homepage/>}/>
                     <Route path="/documentation" element={<Documentation/>}/>
+                    <Route path="/demo" element={<Demo/>}/>
                 </Routes>
             </Router>
             </div>

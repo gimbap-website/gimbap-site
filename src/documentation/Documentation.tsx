@@ -7,6 +7,7 @@ import TableOfContents from './TableOfContents';
 import Intro from './Intro';
 import Installation from './Installation';
 import VisualizingYourData from './VisualizingYourData';
+import Footer from './../product-page/Footer';
 //import ApiDoc from './ApiDoc';
 import Credits from './Credits';
 
@@ -21,5 +22,6 @@ export default function Documentation(){
         <VisualizingYourData />
         <Credits />
       </Stack>
+      <Footer />
   </>);
 }
