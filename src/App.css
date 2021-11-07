@@ -48,6 +48,11 @@ h1{
   color: #38a88e;
 }
 
+#nav-link {
+  color: red;
+}
+
+
 #mobile-nav-button {
   color: #655D5D;
 }
@@ -86,8 +91,16 @@ h1{
 
 #getting-started {
   font-family: 'Spartan', sans-serif;
+  font-size: 80px;
   color: #38a88e;
 }
+
+#select-platform {
+  font-style: italic;
+  font-size: 23px;
+  text-align: center;
+}
+
 
 #credits-header {
   font-family: 'Spartan', sans-serif;
