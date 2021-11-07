@@ -5,6 +5,7 @@ import DesignServicesRoundedIcon from '@mui/icons-material/DesignServicesRounded
 import AssessmentRoundedIcon from '@mui/icons-material/AssessmentRounded';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
+import Example from './../../assets/example';
 // import Illustration from './Illustration/Illustration';
 
 
@@ -19,9 +20,11 @@ export default function Features() {
 
           <Stack direction={{ xs: 'column', sm: 'row' }} alignItems="center" justifyContent="space-between">
             <div><Typography variant="h2" id="features-header">Measure Your Application’s Routing Efficiency</Typography></div>
-            <Box sx={{ width: '90%', height: '400px', backgroundColor: 'darkgrey' }}>
-
-            </Box>
+            {/* <Box sx={{ width: '90%', height: '400px', backgroundColor: '#E1DBD2' }}> */}
+            <div>
+              <img src={Example} style={{ width: '80%', height: '80%' }}/>
+              </div>
+            {/* </Box> */}
           </Stack>
           <br></br>
           <br></br>
