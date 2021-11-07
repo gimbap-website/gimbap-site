@@ -1,19 +1,10 @@
 import React from 'react';
 
 import Typography from '@mui/material/Typography';
-import Avatar from '@mui/material/Avatar';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
-
-import Parker from './team-members/Parker'
-import Khandker from './team-members/Khandker'
-import Miguel from './team-members/Miguel'
-import Angelynn from './team-members/Angelynn'
-import Sebastien from './team-members/Sebastien'
+import MemberCard from './team-members/MemberCard'
 
 
 
@@ -23,25 +14,36 @@ import Sebastien from './team-members/Sebastien'
 export default function Credits() {
   return (
     <div className="dark">
-    <Box sx={{ height: "600px", color: "#D4D0C3" }}>
+    <Box sx={{color: "#D4D0C3" }}>
       {/* Header */}
       <Grid
       container
       direction="column"
       alignItems="center"
       justifyContent="center"
-      style={{ minHeight: '280px' }}>
-        <Typography variant="h2" component="h2" id="credits-header" color="textPrimary">
-          the gimbap team
-        </Typography>
+      spacing={{xs:10, lg:10}}
+      >
+        <Grid item>
+          <Typography variant="h2" component="h2" id="credits-header" color="textPrimary">
+            the gimbap team
+          </Typography>
+        </Grid>
+        <Grid item>
+          <Stack direction={{ xs: 'column', lg: 'row' }} justifyContent="center" spacing={12} alignItems="center">
+          <Stack direction="row" spacing={{xs:5, lg:12}}>
+            <MemberCard data={1} />
+            <MemberCard data={3} />
+          </Stack>
+          <Stack direction="row" spacing={{xs:5, lg:12}}>
+            <MemberCard data={0}/>
+            <MemberCard data={2} />
+          </Stack>
+          <Stack direction="row" spacing={{xs:5, lg:12}}>
+            <MemberCard data={4} />
+          </Stack>
+        </Stack>
+        </Grid>
       </Grid>
-      <Stack direction="row" spacing={15} justifyContent="center">
-        <Khandker />
-        <Miguel />
-        <Angelynn />
-        <Sebastien />
-        <Parker />
-      </Stack>
     </Box>
   </div> );
 }

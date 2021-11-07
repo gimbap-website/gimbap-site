@@ -9,15 +9,10 @@ export default function Divider() {
   <div className="dark section">
   <Stack
       id="divider-box"
-      direction="row"
       divider={<MuiDivider orientation="vertical" flexItem />}
-      spacing ={12}
+      spacing ={{xs:3, lg:12}}
       alignItems="center"
-      direction={{ xs: 'column', sm: 'row' }}
-      sx={{
-        width: "100%",
-        //height: 350,
-      }}
+      direction={{xs: 'column', lg: 'row' }}
     >
       {/* All typography goes into the box/divider */}
    <Typography variant="h2" className="why-header" id="why">Why Microservices?</Typography>

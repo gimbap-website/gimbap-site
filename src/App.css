@@ -153,3 +153,18 @@ h1{
 @keyframes hover-me {
   100% { transform: translate3d(0, 25px, 0); }
 }
+
+@media screen and (max-width: 600px){
+  .MuiTypography-h2.why-header
+  {
+    font-size: 2.75rem;
+  }
+  .MuiTypography-h2#features-header
+  {
+    font-size: 2rem;
+  }
+  .MuiTypography-h2#credits-header
+  {
+    font-size: 2rem;
+  }
+}

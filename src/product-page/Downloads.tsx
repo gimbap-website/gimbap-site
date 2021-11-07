@@ -7,42 +7,48 @@ import WindowIcon from '@mui/icons-material/Window';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
-//import WindowsLogo from './../../assets/windows-logo.png';
+import WindowsLogo from './../../assets/windows-logo.png';
+import LinuxLogo from './../../assets/linux-logo.png';
+import Divider from '@mui/material/Divider';
 
-// Defines our Icon sizes for this page
+
 
 export default function Downloads() {
   return (
   <div className="light">
-    <Box sx={{ height: "700px", color: "#D4D0C3" }}>
-    <Grid
-    container
-    direction="column"
-    alignItems="center"
-    justifyContent="center"
-    style={{ minHeight: '300px' }}
-    >
-      <Typography variant="h2" id="getting-started" color="#6C6C6C" >let's get started</Typography>
-      <Typography variant="h3" id="select-platform" color="#6C6C6C" >select your platform</Typography>
-    </Grid>
 
-    <Grid
-    container
-    direction="row"
-    alignItems="center"
+
+
+    <Box display="flex"
     justifyContent="center"
-    style={{ minHeight: '100px' }}
+    alignItems="center"
+    minHeight="100vh"
     >
 
+    <Grid justifyContent="center">
+
+<Stack direction="column" spacing={4}>
+      <Typography variant="h1" id="getting-started" color="#6C6C6C" >get started with gimbap</Typography>
+      <Typography variant="body1" id="select-platform" color="#6C6C6C" >fork our github repository, or download our desktop application</Typography>
+
+      <Divider></Divider>
+      <br></br>
+      <br></br>
+</Stack>
+    <Stack spacing={3} direction="row" justifyContent="center">
     <Link href="https://github.com/oslabs-beta/gimbap" target="_blank" rel="noopener">
       <GitHubIcon id="download-icon" />
     </Link>
     <Link href="http://www.apple.com" target="_blank" rel="noopener">
       <AppleIcon id="download-icon" />
     </Link>
-    <Link component="button" href="http://www.microsoft.com" target="_blank" rel="noopener">
-      {/* <img id="custom-download-icon" src={WindowsLogo} width="60" height="60" /> */}
+    <Link href="http://www.microsoft.com" target="_blank" rel="noopener">
+      <img id="custom-download-icon" src={WindowsLogo} width="60" height="60" />
     </Link>
+    <Link href="http://www.linux.org" target="_blank" rel="noopener">
+      <img id="custom-download-icon" src={LinuxLogo} width="60" height="60" />
+    </Link>
+    </Stack>
     </Grid>
     </Box>
   </div> );

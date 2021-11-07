@@ -9,22 +9,24 @@ import Box from '@mui/material/Box';
 
 
 // import ClusterGraph from './../../assets/sample-graph.png';
-
+//style={{width: '100%', height: '100%', object-fit: 'contain'}}
 export default function Features() {
   return (
 
     <div id="features" className="light section">
       {/* <ClusterGraph /> */}
-      <Stack spacing={12}>
+      <Stack spacing={{xs:3}}>
         <Box>
-          <Stack direction={{ xs: 'column', sm: 'row' }} alignItems="center" justifyContent="space-between">
+          <Stack direction={{ xs: 'column', md: 'row' }} alignItems="center" justifyContent="space-between">
             {/* <div style={{"flex":1}}><Typography variant="h2" id="features-header">Measure Your Application’s Routing Efficiency</Typography></div>
             <div style={{"flex":1}}><img src="https://res.cloudinary.com/dcgcphyrt/image/upload/v1636132834/index_pcykh1.png"/></div> */}
             <div><Typography variant="h2" id="features-header">Measure Your Application’s Routing Efficiency</Typography></div>
-            <div><img src="https://res.cloudinary.com/dcgcphyrt/image/upload/v1636132834/index_pcykh1.png"/></div>
+            <div>
+              <img style={{"object-fit" : "contain", "height" : "100%", "width" : "100%"}} src="https://res.cloudinary.com/dcgcphyrt/image/upload/v1636132834/index_pcykh1.png"/>
+            </div>
           </Stack>
         </Box>
-        <Stack direction={{ xs: 'column', sm: 'row' }} spacing={12}>
+        <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{xs:7}}>
           <div><Typography variant="h5" className="feature-header" id="feature-header-1"><GroupWorkRoundedIcon/>Cluster Reccomendations</Typography>
           <Typography variant="body1" className="feature-body" id="feature-body-1">Provide detailed recomendations on where your application could benefit from a move to a microservice architecture.</Typography>
           </div>
