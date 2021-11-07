@@ -39,7 +39,7 @@ h1{
   z-index: 999;
 }
 
-#nav-button {
+.MuiButton-text#nav-button {
   font-family: 'Roboto Bold', sans-serif;
   color: #655D5D;
 }
@@ -49,7 +49,7 @@ h1{
 }
 
 #nav-link {
-  color: red;
+  text-decoration: none;
 }
 
 
