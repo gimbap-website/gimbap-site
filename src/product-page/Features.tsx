@@ -6,7 +6,6 @@ import AssessmentRoundedIcon from '@mui/icons-material/AssessmentRounded';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import Example from './../../assets/example';
-// import Illustration from './Illustration/Illustration';
 
 
 export default function Features() {
