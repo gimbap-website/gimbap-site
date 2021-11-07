@@ -134,20 +134,20 @@ h1{
   height: 150px;
 }
 
+#avatar:hover {
+  opacity: 0.8;
+}
+
 #medium-icon {
   width: 33px;
   height: 33px;
   border-radius: 20px;
-  /* padding-left: 5px; */
 }
 
 .footerIcons {
   color: #655D5D;
 }
 
-.footerIcons:hover {
-  color: #28a78d;
-}
 
 .chevron-down {
   padding-top: 35px;
@@ -157,6 +157,15 @@ h1{
   width: 4em;
   height: 5em;
   animation: hover-me .8s infinite ease-in-out alternate;
+}
+
+#os-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#os-link:hover {
+  color: #28a78d;
 }
 
 @keyframes hover-me {
