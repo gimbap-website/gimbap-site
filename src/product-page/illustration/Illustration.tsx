@@ -1,5 +1,9 @@
 import React from 'react';
 import { DefaultNode, Graph } from '@visx/network';
+import { render } from 'react-dom';
+import ParentSize from '@visx/responsive/lib/components/ParentSize';
+
+
 
 export type NetworkProps = {
   width: number;
