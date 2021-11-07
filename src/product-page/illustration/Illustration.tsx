@@ -37,30 +37,30 @@ const graph = {
 
 export const background = '#272b4d';
 
-
-export default function Visualization() {
-  return (
+export default function Illustration({ width, height }: NetworkProps) {
+  return width < 10 ? null : (
     <svg width={width} height={height}>
-    <rect width={width} height={height} rx={14} fill={background} />
-    <Graph<CustomLink, CustomNode>
-      graph={graph}
-      top={20}
-      left={100}
-      nodeComponent={({ node: { color } }) =>
-        color ? <DefaultNode fill={color} /> : <DefaultNode />
-      }
-      linkComponent={({ link: { source, target, dashed } }) => (
-        <line
-          x1={source.x}
-          y1={source.y}
-          x2={target.x}
-          y2={target.y}
-          strokeWidth={2}
-          stroke="#999"
-          strokeOpacity={0.6}
-          strokeDasharray={dashed ? '8,4' : undefined}
-        />
-      )}
-    />
-  </svg>
+      <rect width={width} height={height} rx={14} fill={background} />
+      <Graph<CustomLink, CustomNode>
+        graph={graph}
+        top={20}
+        left={100}
+        nodeComponent={({ node: { color } }) =>
+          color ? <DefaultNode fill={color} /> : <DefaultNode />
+        }
+        linkComponent={({ link: { source, target, dashed } }) => (
+          <line
+            x1={source.x}
+            y1={source.y}
+            x2={target.x}
+            y2={target.y}
+            strokeWidth={2}
+            stroke="#999"
+            strokeOpacity={0.6}
+            strokeDasharray={dashed ? '8,4' : undefined}
+          />
+        )}
+      />
+    </svg>
+  );
 }
