@@ -5,7 +5,7 @@ import Grid from '@mui/material/Grid';
 
 export default function Splash() {
 
-const executeScroll = () => document.getElementById('features').scrollIntoView()
+const executeScroll = () => document.getElementById('features').scrollIntoView({behavior:'smooth'})
 
   return (
     <div className="dark">

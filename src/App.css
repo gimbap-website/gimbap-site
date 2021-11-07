@@ -27,9 +27,6 @@ h1{
 }
 
 #navbar {
-  /* position: fixed;
-  width: 100%;
-  /* height: 80px; */
   display: flex;
   justify-content: space-between;
   padding: 0.5em 1.5em;
@@ -39,26 +36,17 @@ h1{
   z-index: 999;
 }
 
-#nav-button {
+.MuiButton-text.nav-button {
   font-family: 'Roboto Bold', sans-serif;
   color: #655D5D;
 }
 
-#nav-button:hover {
+.nav-button:hover {
   color: #38a88e;
 }
 
 #nav-link {
-  color: red;
-}
-
-
-#mobile-nav-button {
-  color: #655D5D;
-}
-
-#mobile-nav-button:hover {
-  color: #38a88e;
+  text-decoration: none;
 }
 
 .section {
@@ -100,7 +88,6 @@ h1{
   font-size: 23px;
   text-align: center;
 }
-
 
 #credits-header {
   font-family: 'Spartan', sans-serif;
@@ -160,7 +147,6 @@ h1{
 .footerIcons {
   color: #655D5D;
 }
-
 
 .chevron-down {
   padding-top: 35px;

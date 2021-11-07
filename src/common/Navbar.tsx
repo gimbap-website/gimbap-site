@@ -29,10 +29,10 @@ export default function Navbar () {
     return (
       <div>
         <Link id="nav-link" component={RouterLink} to='/demo'>
-          <Button id="nav-button" style={{color: '#655D5D'}} variant="text">Demo</Button>
+          <Button className="nav-button" variant="text">Demo</Button>
         </Link>
         <Link id="nav-link" component={RouterLink} to='/documentation'>
-          <Button id="nav-button" style={{color: '#655D5D'}} variant="text">Documentation</Button>
+          <Button className="nav-button" variant="text">Documentation</Button>
         </Link>
       </div>
     );
@@ -70,11 +70,11 @@ export default function Navbar () {
           }}
         >
           <Stack spacing={1} justifyContent="center" alignItems="center">
-            <Link component={RouterLink} to='/demo'>
-              <Button>Demo</Button>
+            <Link component={RouterLink} to='/demo' id="nav-link">
+            <Button className="nav-button" variant="text">Demo</Button>
             </Link>
-            <Link component={RouterLink} to="/documentation">
-              <Button>Document</Button>
+            <Link component={RouterLink} to="/documentation" id="nav-link">
+            <Button className="nav-button" variant="text">Documentation</Button>
             </Link>
           </Stack>
         </Drawer>
