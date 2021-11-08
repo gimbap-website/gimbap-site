@@ -33,7 +33,7 @@ export default function MemberCard(props) {
         image: SebastianF,
         linkedIn: 'https://www.linkedin.com/in/sebastienfauque/',
         github: 'https://github.com/SebastienFauque',
-        name: 'Sebastian Faque'
+        name: 'Sebastién Fauque'
     },
     {
         image: MiguelH,
