@@ -5,11 +5,9 @@ import DesignServicesRoundedIcon from '@mui/icons-material/DesignServicesRounded
 import AssessmentRoundedIcon from '@mui/icons-material/AssessmentRounded';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
+import Example from './../../assets/example';
 
 
-
-// import ClusterGraph from './../../assets/sample-graph.png';
-//style={{width: '100%', height: '100%', object-fit: 'contain'}}
 export default function Features() {
   return (
 
@@ -22,7 +20,7 @@ export default function Features() {
             <div style={{"flex":1}}><img src="https://res.cloudinary.com/dcgcphyrt/image/upload/v1636132834/index_pcykh1.png"/></div> */}
             <div><Typography variant="h2" id="features-header">Measure Your Application’s Routing Efficiency</Typography></div>
             <div>
-              <img style={{"object-fit" : "contain", "height" : "100%", "width" : "100%"}} src="https://res.cloudinary.com/dcgcphyrt/image/upload/v1636132834/index_pcykh1.png"/>
+              <img style={{"objectFit" : "contain", "height" : "100%", "width" : "100%"}} src={Example}/>
             </div>
           </Stack>
         </Box>
@@ -40,5 +38,6 @@ export default function Features() {
         </Stack>
       </Stack>
     </div>
+
   );
 }
