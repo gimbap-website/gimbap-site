@@ -17,7 +17,7 @@ const executeScroll = () => document.getElementById('features').scrollIntoView({
   justifyContent="center"
   style={{ minHeight: '100vh' }}
 >
-<img id="main-logo" src={logo} />
+<img id="main-logo" src={logo}  />
 
 <div id="chevron" onClick={executeScroll}>
     <svg viewBox="0 0 68 33" className="chevron-down">

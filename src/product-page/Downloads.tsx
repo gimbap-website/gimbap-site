@@ -27,29 +27,28 @@ export default function Downloads() {
 
     <Grid justifyContent="center">
 
-<Stack direction="column" spacing={4}>
+    <Stack direction="column" spacing={4}>
       <Typography variant="h1" id="getting-started" color="#6C6C6C" >get started with gimbap</Typography>
       <Typography variant="body1" id="select-platform" color="#6C6C6C" >fork our github repository, or download our desktop application</Typography>
-
       <Divider></Divider>
       <br></br>
       <br></br>
-</Stack>
+    </Stack>
     <Stack spacing={3} direction="row" justifyContent="center">
-    <Link href="https://github.com/oslabs-beta/gimbap" target="_blank" rel="noopener">
-      <GitHubIcon id="download-icon" />
-    </Link>
-    <Link href="http://www.apple.com" target="_blank" rel="noopener">
-      <AppleIcon id="download-icon" />
-    </Link>
-    <Link href="http://www.microsoft.com" target="_blank" rel="noopener">
-      <img id="custom-download-icon" src={WindowsLogo} width="60" height="60" />
-    </Link>
-    <Link href="http://www.linux.org" target="_blank" rel="noopener">
-      <img id="custom-download-icon" src={LinuxLogo} width="60" height="60" />
-    </Link>
+      <Link href="https://github.com/oslabs-beta/gimbap" target="_blank" rel="noopener">
+        <GitHubIcon id="download-icon" />
+      </Link>
+      <Link href="http://www.apple.com" target="_blank" rel="noopener">
+        <AppleIcon id="download-icon" />
+      </Link>
+      <Link href="http://www.microsoft.com" target="_blank" rel="noopener">
+        <img id="custom-download-icon" src={WindowsLogo} width="60" height="60" />
+      </Link>
+      <Link href="http://www.linux.org" target="_blank" rel="noopener">
+        <img id="custom-download-icon" src={LinuxLogo} width="60" height="60" />
+      </Link>
     </Stack>
     </Grid>
     </Box>
   </div> );
-}
+};
