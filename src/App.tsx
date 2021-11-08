@@ -1,23 +1,22 @@
 import React from "react"
-import Credits from "./product-page/Credits"
-import NavBar from "./common/Navbar"
-import Features from "./product-page/Features"
-import Splash from "./product-page/Splash"
-import Divider from "./product-page/Divider"
-import Downloads from "./product-page/Downloads"
+import Homepage from './product-page/Homepage'
+import NavBar from './common/Navbar'
+import {BrowserRouter as Router, Route, Link as RouterLink, Routes} from 'react-router-dom';
+import Documentation from "./documentation/Documentation";
+import Demo from "./demo/Demo";
 
 function App() {
     return (
-        <div id="test">
-        <NavBar />
-        <Splash />
-        <Features />
-        <Divider />
-        <Downloads />
-        <Credits />
-        <h2>Welcome to React Hell</h2>
-        <h3>Date : {new Date().toDateString()}</h3>
-    </div>
+            <div id="test">
+             <Router>
+                <NavBar />
+                <Routes>
+                    <Route path='/' element={<Homepage/>}/>
+                    <Route path="/documentation" element={<Documentation/>}/>
+                    <Route path="/demo" element={<Demo/>}/>
+                </Routes>
+            </Router>
+            </div>
     )
 }
 
