@@ -56,6 +56,7 @@ export default function MemberCard(props) {
   return (
     <div className="memberCard">
       <Grid
+      style={{"textAlign": "center"}}
       container
       direction="column"
       alignItems="center"
