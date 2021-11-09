@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
-import MiguelH from "./../../../assets/pokemon/mewtoo";
+import MiguelH from "./../../../assets/miguel.jpg";
 
 
 export default function Miguel() {
