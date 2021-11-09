@@ -53,6 +53,10 @@
   font-family: 'Spartan', sans-serif;
 }
 
+.MuiTypography-body1.why-feature {
+  font-size: 24px;
+}
+
 .logo {
   font-family: 'Spartan', sans-serif;
   color: #38a88e;
@@ -93,7 +97,7 @@
   font-size: 23px;
 }
 
-.MuiTypography-body1.why-feature-bold {
+.why-feature-bold {
   font-family: 'Spartan', sans-serif;
   color: #28a78d;
   font-weight: 1000;
@@ -189,4 +193,18 @@
 }
 .demoInfo {
   width: 15%;
+}
+
+.feature{
+  width: 33%;
+}
+
+.divider-info {
+  width: 60%;
+}
+
+.divider {
+  height: 300px;
+  display: flex;
+  align-items: center;
 }
