@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import AngelynnT from '../../../assets/angelynn.jpg';
 import KhanI from '../../../assets/pokemon/carp.png';
-import SebastianF from '../../../assets/sebastien.jpg';
+import SebastienF from '../../../assets/sebastien.jpg';
 import MiguelH from '../../../assets/pokemon/mewtoo.png';
 import ParkerH from '../../../assets/parker.png';
 
@@ -30,7 +30,7 @@ export default function MemberCard(props) {
         name: 'Khandker Islam'
     },
     {
-        image: SebastianF,
+        image: SebastienF,
         linkedIn: 'https://www.linkedin.com/in/sebastienfauque/',
         github: 'https://github.com/SebastienFauque',
         name: 'Sébastien Fauque'
