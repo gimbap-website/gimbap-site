@@ -6,7 +6,7 @@ import MuiDivider from '@mui/material/Divider';
 
 export default function Divider() {
   return (
-  <div className="dark section">
+  <div className="dark section divider">
   <Stack
       id="divider-box"
       divider={<MuiDivider orientation="vertical" flexItem />}
@@ -15,24 +15,10 @@ export default function Divider() {
       direction={{xs: 'column', lg: 'row' }}
     >
       {/* All typography goes into the box/divider */}
-   <Typography variant="h2" className="why-header" id="why">Why Microservices?</Typography>
-   <div>
-    <Typography variant="body1" className="why-feature" id="why-feature-1-1/2">Up to</Typography>
-    <Typography variant="body1" className="why-feature-bold" id="why-feature-bold-1">4x</Typography>
-    <Typography variant="body1" className="why-feature" id="why-feature-2/2">increased speeds</Typography>
+   <Typography variant="h2" className="why-header" id="why">Why Gimbap?</Typography>
+   <div className="divider-info">
+    <Typography variant="body1" className="why-feature" id="why-feature-1-1/2">A completely Open Source application that gives developers a platform to test and measure their application’s endpoint performance to gauge the viability of transitioning to a microservice architecture.</Typography>
   </div>
-
-   <div>
-   <Typography variant="body1" className="why-feature" id="why-feature-2-1/2">Up to</Typography>
-   <Typography variant="body1" className="why-feature-bold" id="why-feature-bold-2">4x</Typography>
-   <Typography variant="body1" className="why-feature" id="why-feature-2-2/2">increased speeds</Typography>
-   </div>
-
-   <div>
-   <Typography variant="body1" className="why-feature" id="why-feature-3-1/2">Up to</Typography>
-   <Typography variant="body1" className="why-feature-bold" id="why-feature-bold-3">4x</Typography>
-   <Typography variant="body1" className="why-feature" id="why-feature-3-2/2">increased speeds</Typography>
-   </div>
 </Stack>
   </div> );
 }
