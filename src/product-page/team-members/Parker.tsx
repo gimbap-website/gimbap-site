@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
-import Park from "./../../../assets/pokemon/piplup";
+import Park from "./../../../assets/parker";
 
 
 

@@ -6,11 +6,11 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
-import AngelynnT from '../../../assets/pokemon/lazy.png';
+import AngelynnT from '../../../assets/angelynn.jpg';
 import KhanI from '../../../assets/pokemon/carp.png';
-import SebastianF from '../../../assets/pokemon/butter.png';
+import SebastianF from '../../../assets/sebastien.jpg';
 import MiguelH from '../../../assets/pokemon/mewtoo.png';
-import ParkerH from '../../../assets/pokemon/piplup.png';
+import ParkerH from '../../../assets/parker.png';
 
 export default function MemberCard(props) {
 
@@ -33,7 +33,7 @@ export default function MemberCard(props) {
         image: SebastianF,
         linkedIn: 'https://www.linkedin.com/in/sebastienfauque/',
         github: 'https://github.com/SebastienFauque',
-        name: 'Sebastién Fauque'
+        name: 'Sébastien Fauque'
     },
     {
         image: MiguelH,
@@ -47,9 +47,9 @@ export default function MemberCard(props) {
         github: 'https://github.com/Parker9706',
         name: 'Parker Hutcheson'
     },
-    
+
 ] ;
-  
+
   const {data} = props;
   const element = members[data];
 

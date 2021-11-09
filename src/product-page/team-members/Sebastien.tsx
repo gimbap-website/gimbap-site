@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
-import Seb from "./../../../assets/pokemon/butter";
+import Seb from "./../../../assets/sebastien";
 
 
 export default function Sebastien() {
