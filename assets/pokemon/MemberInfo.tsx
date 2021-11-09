@@ -1,7 +1,7 @@
 import AngelynnT from './../angelynn.png';
 import KhanI from './carp.png';
 import SebastienF from './../sebastien.png';
-import MiguelH from './mewtwo.png';
+import MiguelH from './assets/miguel.jpg';
 import ParkerH from './../parker.png';
 //import { github } from 'react-code-blocks';
 

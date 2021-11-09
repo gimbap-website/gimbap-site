@@ -9,7 +9,7 @@ import Link from '@material-ui/core/Link';
 import AngelynnT from '../../../assets/angelynn.jpg';
 import KhanI from '../../../assets/pokemon/carp.png';
 import SebastienF from '../../../assets/sebastien.jpg';
-import MiguelH from '../../../assets/pokemon/mewtoo.png';
+import MiguelH from '../../../assets/miguel.jpg';
 import ParkerH from '../../../assets/parker.png';
 
 export default function MemberCard(props) {
@@ -33,7 +33,7 @@ export default function MemberCard(props) {
         image: SebastienF,
         linkedIn: 'https://www.linkedin.com/in/sebastienfauque/',
         github: 'https://github.com/SebastienFauque',
-        name: 'Sébastien Fauque'
+        name: 'Sebastien Fauque'
     },
     {
         image: MiguelH,

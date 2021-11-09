@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.tsx",
   "scripts": {
-    "serve": "webpack serve --mode development",
+    "start": "webpack serve --mode development",
     "build": "webpack --mode production"
   },
   "repository": {
