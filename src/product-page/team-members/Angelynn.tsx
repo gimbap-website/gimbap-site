@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
-import AngelynnT from "./../../../assets/pokemon/lazy";
+import AngelynnT from "./../../../assets/angelynn";
 
 export default function Angelynn() {
   return (
