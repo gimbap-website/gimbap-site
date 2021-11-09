@@ -9,8 +9,9 @@ export default function FeatureRight() {
     <Stack direction="row" spacing={12} alignItems="center" justifyContent="center">
       <div> <img src={featureOneImg}/> </div>
       <div className="demoInfo">
-      <Typography variant="h4" className="demoFeature">Individual Routes</Typography>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo
+      <Typography variant="h4" className="demoFeature">Track Individual Routes</Typography>
+        <div id="demo-string">Evaluate individual endpoints' call time performance to learn more about traffic within specific sectors of an application.
+        </div>
       </div>
     </Stack>
   </div>);

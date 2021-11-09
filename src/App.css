@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #E1DBD2;
+}
+
 #main-logo {
   display: flex;
   margin-left: auto;
@@ -195,6 +199,13 @@
   width: 15%;
 }
 
+#demo-title {
+  font-family: 'Spartan', sans-serif;
+  font-size: 60px;
+}
+
+#demo-string {
+  font-size: 22px;
 .feature{
   width: 33%;
 }
