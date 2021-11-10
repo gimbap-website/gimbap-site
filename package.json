@@ -13,7 +13,7 @@
     "url": "git+https://github.com/Parker9706/gimbap-site.git"
   },
   "engines": {
-    "node": "13.1.0",
+    "node": "12.14.1",
     "npm": "6.12.1",
     "yarn": "1.19.1"
   },
