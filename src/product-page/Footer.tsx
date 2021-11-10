@@ -38,7 +38,7 @@ export default function Credits() {
     <Link href="https://github.com/oslabs-beta/gimbap" target="_blank" rel="noopener">
     <GitHubIcon className="footerIcons" fontSize="large" />
     </Link>
-    <Link href="https://www.linkedin.com/" target="_blank" rel="noopener">
+    <Link href="https://www.linkedin.com/company/gimbap" target="_blank" rel="noopener">
     <LinkedInIcon className="footerIcons" fontSize="large"/>
     </Link>
     <Link href="https://medium.com/tag/humor" target="_blank" rel="noopener">

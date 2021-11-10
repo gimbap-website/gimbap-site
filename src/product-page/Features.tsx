@@ -14,7 +14,7 @@ export default function Features() {
     <div id="features" className="light section">
       {/* <ClusterGraph /> */}
       <Stack spacing={{xs:3}}>
-        <Box>
+        <Box sx={{ minHeight: '530px'}}>
           <Stack direction={{ xs: 'column', md: 'row' }} alignItems="center" justifyContent="space-between">
             {/* <div style={{"flex":1}}><Typography variant="h2" id="features-header">Measure Your Application’s Routing Efficiency</Typography></div>
             <div style={{"flex":1}}><img src="https://res.cloudinary.com/dcgcphyrt/image/upload/v1636132834/index_pcykh1.png"/></div> */}

@@ -35,6 +35,7 @@
     "@mui/styled-engine-sc": "^5.0.4",
     "@visx/visx": "^2.3.0",
     "autoprefixer": "^10.4.0",
+    "colorette": "^2.0.16",
     "d3": "^7.1.1",
     "mui": "0.0.1",
     "react": "^17.0.2",

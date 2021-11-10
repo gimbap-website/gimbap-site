@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
-import Khan from "./../../../assets/pokemon/carp";
+import Khan from "./../../../assets/khan";
 
 export default function Khandker() {
   return (
