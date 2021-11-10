@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/Parker9706/gimbap-site/issues"
   },
-  "homepage": "https://github.com/Parker9706/gimbap-site#readme",
+  "homepage": "https://gimbap-io.herokuapp.com/",
   "dependencies": {
     "@babel/preset-flow": "^7.16.0",
     "@emotion/react": "^11.5.0",
