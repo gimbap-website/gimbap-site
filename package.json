@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.tsx",
   "scripts": {
-    "start": "webpack serve --mode production",
+    "start": "webpack --mode production",
     "build": "webpack --mode production",
     "dev": "webpack serve --mode development"
   },
@@ -35,7 +35,6 @@
     "@mui/styled-engine-sc": "^5.0.4",
     "@visx/visx": "^2.3.0",
     "d3": "^7.1.1",
-    "express": "^4.17.1",
     "mui": "0.0.1",
     "react": "^17.0.2",
     "react-code-blocks": "0.0.9-0",
