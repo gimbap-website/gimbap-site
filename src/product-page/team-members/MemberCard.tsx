@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import AngelynnT from '../../../assets/angelynn.jpg';
-import KhanI from '../../../assets/pokemon/carp.png';
+import KhanI from '../../../assets/khan.jpg';
 import SebastienF from '../../../assets/sebastien.jpg';
 import MiguelH from '../../../assets/miguel.jpg';
 import ParkerH from '../../../assets/parker.png';

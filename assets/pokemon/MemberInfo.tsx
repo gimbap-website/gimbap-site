@@ -1,5 +1,5 @@
 import AngelynnT from './../angelynn.png';
-import KhanI from './carp.png';
+import KhanI from './assets/khan.jpg';
 import SebastienF from './../sebastien.png';
 import MiguelH from './assets/miguel.jpg';
 import ParkerH from './../parker.png';
