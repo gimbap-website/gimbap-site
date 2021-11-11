@@ -36,10 +36,10 @@ export default function Miguel() {
       alignItems="center"
       justifyContent="center"
       >
-        <Link href="https://github.com/miguelh72">
+        <Link href="https://github.com/miguelh72" target="_blank">
           <GitHubIcon id="credits-icon"/>
         </Link>
-        <Link href="https://www.linkedin.com/in/miguelh72/">
+        <Link href="https://www.linkedin.com/in/miguelh72/" target="_blank">
           <LinkedInIcon id="credits-icon" />
         </Link>
       </Grid>
