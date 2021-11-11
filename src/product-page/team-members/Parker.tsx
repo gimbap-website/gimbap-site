@@ -38,10 +38,10 @@ export default function Parker() {
       alignItems="center"
       justifyContent="center"
       >
-        <Link href="https://github.com/Parker9706">
+        <Link href="https://github.com/Parker9706" target="_blank">
           <GitHubIcon id="credits-icon" />
         </Link>
-        <Link href="https://www.linkedin.com/in/parkerhutcheson/">
+        <Link href="https://www.linkedin.com/in/parkerhutcheson/" target="_blank">
           <LinkedInIcon id="credits-icon" />
         </Link>
       </Grid>
