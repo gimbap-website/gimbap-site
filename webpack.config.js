@@ -18,11 +18,26 @@ module.exports = {
  module: {
    rules: [
     {
-       test: /\.(ts|tsx)$/,
-       exclude: /nodeModules/,
-       use: {
-         loader: 'babel-loader'
-       }
+      test: /\.tsx?$/,
+      exclude: /node_modules/,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: [
+            '@babel/preset-env',
+            '@babel/preset-react',
+            '@babel/preset-typescript'
+          ],
+          plugins: [
+            [
+              '@babel/plugin-transform-runtime',
+              {
+                'regenerator': true
+              }
+            ]
+          ]
+        }
+      }
     },
      {
        test: /\.css$/,
