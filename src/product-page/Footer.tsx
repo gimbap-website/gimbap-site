@@ -41,7 +41,7 @@ export default function Credits() {
     <Link href="https://www.linkedin.com/company/gimbap" target="_blank" rel="noopener">
     <LinkedInIcon className="footerIcons" fontSize="large"/>
     </Link>
-    <Link href="https://medium.com/tag/humor" target="_blank" rel="noopener">
+    <Link href="https://medium.com/@gimbap_io/gimbap-real-time-microservice-clustering-recommendations-decbe2040c88" target="_blank" rel="noopener">
       <img id="medium-icon" src={Medium} />
     </Link>
     </Box>
