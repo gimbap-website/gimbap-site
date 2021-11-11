@@ -29,7 +29,7 @@ export default function Downloads() {
 
     <Stack direction="column" spacing={4}>
       <Typography variant="h1" id="getting-started" color="#6C6C6C" >get started with gimbap</Typography>
-      <Typography variant="body1" id="select-platform" color="#6C6C6C" >fork our github repository</Typography>
+      <Typography variant="body1" id="select-platform" color="#6C6C6C" >fork our github repository, or download our native MacOS application</Typography>
       <Divider></Divider>
       <br></br>
       <br></br>
@@ -39,9 +39,9 @@ export default function Downloads() {
         <GitHubIcon id="download-icon" />
       </Link>
       {/* Will add these icons when Electron is fully supported */}
-      {/* <Link href="http://www.apple.com" target="_blank" rel="noopener">
+      <Link href="https://github.com/oslabs-beta/gimbap/archive/refs/tags/v1.0.0.zip" target="_blank" rel="noopener">
         <AppleIcon id="download-icon" />
-      </Link> */}
+      </Link>
       {/* <Link href="http://www.microsoft.com" target="_blank" rel="noopener">
         <img id="custom-download-icon" src={WindowsLogo} width="60" height="60" />
       </Link> */}
