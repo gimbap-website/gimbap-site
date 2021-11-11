@@ -69,10 +69,10 @@ export default function MemberCard(props) {
           <Typography variant="body1" id="credits-body" color="textPrimary">{element.name}</Typography>
         </Grid>
         <Grid item>
-          <Link href={element.github}>
+          <Link href={element.github} target="blank" rel="noopener">
             <GitHubIcon id="credits-icon" />
           </Link>
-          <Link href={element.linkedIn}>
+          <Link href={element.linkedIn} target="blank" rel="noopener">
             <LinkedInIcon id="credits-icon" />
           </Link>
         </Grid>

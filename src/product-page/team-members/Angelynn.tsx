@@ -35,10 +35,10 @@ export default function Angelynn() {
       alignItems="center"
       justifyContent="center"
       >
-        <Link href="https://github.com/vngelynn">
+        <Link href="https://github.com/vngelynn" target="_blank" rel="noopener">
           <GitHubIcon id="credits-icon" />
         </Link>
-        <Link href="https://www.linkedin.com/in/vngelynn/">
+        <Link href="https://www.linkedin.com/in/vngelynn/" target="_blank" rel="noopener">
           <LinkedInIcon id="credits-icon" />
         </Link>
       </Grid>

@@ -29,7 +29,7 @@ export default function Downloads() {
 
     <Stack direction="column" spacing={4}>
       <Typography variant="h1" id="getting-started" color="#6C6C6C" >get started with gimbap</Typography>
-      <Typography variant="body1" id="select-platform" color="#6C6C6C" >fork our github repository, or download our desktop application</Typography>
+      <Typography variant="body1" id="select-platform" color="#6C6C6C" >fork our github repository</Typography>
       <Divider></Divider>
       <br></br>
       <br></br>
@@ -38,15 +38,16 @@ export default function Downloads() {
       <Link href="https://github.com/oslabs-beta/gimbap" target="_blank" rel="noopener">
         <GitHubIcon id="download-icon" />
       </Link>
-      <Link href="http://www.apple.com" target="_blank" rel="noopener">
+      {/* Will add these icons when Electron is fully supported */}
+      {/* <Link href="http://www.apple.com" target="_blank" rel="noopener">
         <AppleIcon id="download-icon" />
-      </Link>
-      <Link href="http://www.microsoft.com" target="_blank" rel="noopener">
+      </Link> */}
+      {/* <Link href="http://www.microsoft.com" target="_blank" rel="noopener">
         <img id="custom-download-icon" src={WindowsLogo} width="60" height="60" />
-      </Link>
-      <Link href="http://www.linux.org" target="_blank" rel="noopener">
+      </Link> */}
+      {/* <Link href="http://www.linux.org" target="_blank" rel="noopener">
         <img id="custom-download-icon" src={LinuxLogo} width="60" height="60" />
-      </Link>
+      </Link> */}
     </Stack>
     </Grid>
     </Box>
