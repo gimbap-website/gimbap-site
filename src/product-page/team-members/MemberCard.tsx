@@ -10,7 +10,7 @@ import AngelynnT from '../../../assets/angelynn.jpg';
 import KhanI from '../../../assets/khan.png';
 import SebastienF from '../../../assets/sebastien.jpg';
 import MiguelH from '../../../assets/miguel.jpg';
-import ParkerH from '../../../assets/parker.png';
+import ParkerH from '../../../assets/parker.jpg';
 
 export default function MemberCard(props) {
 

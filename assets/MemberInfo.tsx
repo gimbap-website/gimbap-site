@@ -2,7 +2,7 @@ import AngelynnT from './angelynn.png';
 import KhanI from './khan.png';
 import SebastienF from './sebastien.png';
 import MiguelH from './miguel.jpg';
-import ParkerH from './parker.png';
+import ParkerH from './parker.jpg';
 //import { github } from 'react-code-blocks';
 
 export default [
