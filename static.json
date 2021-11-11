@@ -1,6 +1,0 @@
-{
-  "root": "dist/",
-  "routes": {
-    "/**": "./src/index.html"
-  }
-}

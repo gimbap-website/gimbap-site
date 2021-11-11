@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgimbap_site=self.webpackChunkgimbap_site||[]).push([[6495],{4970:t=>{function e(t){t.languages.ini={comment:/^[ \t]*[;#].*$/m,selector:/^[ \t]*\[.*?\]/m,constant:/^[ \t]*[^\s=]+?(?=[ \t]*=)/m,"attr-value":{pattern:/=.*/,inside:{punctuation:/^[=]/}}}}t.exports=e,e.displayName="ini",e.aliases=[]}}]);
