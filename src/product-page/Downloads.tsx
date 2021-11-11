@@ -38,10 +38,10 @@ export default function Downloads() {
       <Link href="https://github.com/oslabs-beta/gimbap" target="_blank" rel="noopener">
         <GitHubIcon id="download-icon" />
       </Link>
-      {/* Will add these icons when Electron is fully supported */}
-      {/* <Link href="http://www.apple.com" target="_blank" rel="noopener">
+       <Link href="https://github.com/oslabs-beta/gimbap/releases" target="_blank" rel="noopener">
         <AppleIcon id="download-icon" />
-      </Link> */}
+      </Link>
+      {/* Will add these icons when Electron is fully supported */}
       {/* <Link href="http://www.microsoft.com" target="_blank" rel="noopener">
         <img id="custom-download-icon" src={WindowsLogo} width="60" height="60" />
       </Link> */}
