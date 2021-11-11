@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
-import MiguelH from "./../../../assets/pokemon/mewtoo";
+import MiguelH from "./../../../assets/miguel.jpg";
 
 
 export default function Miguel() {
@@ -36,10 +36,10 @@ export default function Miguel() {
       alignItems="center"
       justifyContent="center"
       >
-        <Link href="https://github.com/miguelh72">
+        <Link href="https://github.com/miguelh72" target="_blank">
           <GitHubIcon id="credits-icon"/>
         </Link>
-        <Link href="https://www.linkedin.com/in/miguelh72/">
+        <Link href="https://www.linkedin.com/in/miguelh72/" target="_blank">
           <LinkedInIcon id="credits-icon" />
         </Link>
       </Grid>

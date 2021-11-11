@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
-import Seb from "./../../../assets/pokemon/butter";
+import Seb from "./../../../assets/sebastien";
 
 
 export default function Sebastien() {
@@ -36,10 +36,10 @@ export default function Sebastien() {
       alignItems="center"
       justifyContent="center"
       >
-        <Link href="https://github.com/SebastienFauque">
+        <Link href="https://github.com/SebastienFauque" target="_blank">
           <GitHubIcon id="credits-icon"/>
         </Link>
-        <Link href="https://www.linkedin.com/in/sebastienfauque/">
+        <Link href="https://www.linkedin.com/in/sebastienfauque/" target="_blank">
           <LinkedInIcon id="credits-icon" />
         </Link>
       </Grid>

@@ -1,8 +1,8 @@
-import AngelynnT from './lazy.png';
-import KhanI from './carp.png';
-import SebastianF from './butter.png';
-import MiguelH from './mewtwo.png';
-import ParkerH from './piplup.png';
+import AngelynnT from './angelynn.png';
+import KhanI from './khan.png';
+import SebastienF from './sebastien.png';
+import MiguelH from './miguel.jpg';
+import ParkerH from './parker.jpg';
 //import { github } from 'react-code-blocks';
 
 export default [
@@ -19,10 +19,10 @@ export default [
         name: 'Khandker Islam'
     },
     {
-        image: SebastianF,
+        image: SebastienF,
         linkedIn: 'https://www.linkedin.com/in/sebastienfauque/',
         github: 'https://github.com/SebastienFauque',
-        name: 'Sebastian Faque'
+        name: 'Sebastien Fauque'
     },
     {
         image: MiguelH,
@@ -36,5 +36,5 @@ export default [
         github: 'https://github.com/Parker9706',
         name: 'Parker Hutcheson'
     },
-    
+
 ];

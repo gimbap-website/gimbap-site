@@ -12,17 +12,32 @@ module.exports = {
  },
   // webpack 5 comes with devServer which loads in development mode
  devServer: {
-   port: 3000,
+   port: 'auto',
  },
   // Rules of how webpack will take our files, complie & bundle them for the browser
  module: {
    rules: [
     {
-       test: /\.(ts|tsx)$/,
-       exclude: /nodeModules/,
-       use: {
-         loader: 'babel-loader'
-       }
+      test: /\.tsx?$/,
+      exclude: /node_modules/,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: [
+            '@babel/preset-env',
+            '@babel/preset-react',
+            '@babel/preset-typescript'
+          ],
+          plugins: [
+            [
+              '@babel/plugin-transform-runtime',
+              {
+                'regenerator': true
+              }
+            ]
+          ]
+        }
+      }
     },
      {
        test: /\.css$/,
@@ -54,5 +69,4 @@ module.exports = {
 },
  plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
 }
-
 

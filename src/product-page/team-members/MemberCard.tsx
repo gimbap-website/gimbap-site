@@ -6,11 +6,11 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
-import AngelynnT from '../../../assets/pokemon/lazy.png';
-import KhanI from '../../../assets/pokemon/carp.png';
-import SebastianF from '../../../assets/pokemon/butter.png';
-import MiguelH from '../../../assets/pokemon/mewtoo.png';
-import ParkerH from '../../../assets/pokemon/piplup.png';
+import AngelynnT from '../../../assets/angelynn.jpg';
+import KhanI from '../../../assets/khan.png';
+import SebastienF from '../../../assets/sebastien.jpg';
+import MiguelH from '../../../assets/miguel.jpg';
+import ParkerH from '../../../assets/parker.jpg';
 
 export default function MemberCard(props) {
 
@@ -30,10 +30,10 @@ export default function MemberCard(props) {
         name: 'Khandker Islam'
     },
     {
-        image: SebastianF,
+        image: SebastienF,
         linkedIn: 'https://www.linkedin.com/in/sebastienfauque/',
         github: 'https://github.com/SebastienFauque',
-        name: 'Sebastién Fauque'
+        name: 'Sebastien Fauque'
     },
     {
         image: MiguelH,
@@ -47,9 +47,9 @@ export default function MemberCard(props) {
         github: 'https://github.com/Parker9706',
         name: 'Parker Hutcheson'
     },
-    
+
 ] ;
-  
+
   const {data} = props;
   const element = members[data];
 
@@ -69,10 +69,10 @@ export default function MemberCard(props) {
           <Typography variant="body1" id="credits-body" color="textPrimary">{element.name}</Typography>
         </Grid>
         <Grid item>
-          <Link href={element.github}>
+          <Link href={element.github} target="blank" rel="noopener">
             <GitHubIcon id="credits-icon" />
           </Link>
-          <Link href={element.linkedIn}>
+          <Link href={element.linkedIn} target="blank" rel="noopener">
             <LinkedInIcon id="credits-icon" />
           </Link>
         </Grid>

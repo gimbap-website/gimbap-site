@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 import Link from '@material-ui/core/Link';
 import Stack from '@mui/material/Stack';
 
-import Khan from "./../../../assets/pokemon/carp";
+import Khan from "./../../../assets/khan";
 
 export default function Khandker() {
   return (
@@ -35,10 +35,10 @@ export default function Khandker() {
       alignItems="center"
       justifyContent="center"
       >
-        <Link href="https://github.com/khandkerislam">
+        <Link href="https://github.com/khandkerislam" target="_blank">
           <GitHubIcon id="credits-icon" />
         </Link>
-        <Link href="https://www.linkedin.com/in/khandkerislam/">
+        <Link href="https://www.linkedin.com/in/khandkerislam/" target="_blank">
           <LinkedInIcon id="credits-icon" />
         </Link>
       </Grid>

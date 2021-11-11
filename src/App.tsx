@@ -5,13 +5,14 @@ import {BrowserRouter as Router, Route, Link as RouterLink, Routes} from 'react-
 import Documentation from "./documentation/Documentation";
 import Demo from "./demo/Demo";
 
-function App() {
+export default function App() {
     return (
             <div id="test">
              <Router>
                 <NavBar />
                 <Routes>
                     <Route path='/' element={<Homepage/>}/>
+                    <Route path='/index.html' element={<Homepage/>}/>
                     <Route path="/documentation" element={<Documentation/>}/>
                     <Route path="/demo" element={<Demo/>}/>
                 </Routes>
@@ -20,4 +21,3 @@ function App() {
     )
 }
 
-export default App
