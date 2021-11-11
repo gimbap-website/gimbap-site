@@ -12,6 +12,7 @@ export default function App() {
                 <NavBar />
                 <Routes>
                     <Route path='/' element={<Homepage/>}/>
+                    <Route path='/index.html' element={<Homepage/>}/>
                     <Route path="/documentation" element={<Documentation/>}/>
                     <Route path="/demo" element={<Demo/>}/>
                 </Routes>
